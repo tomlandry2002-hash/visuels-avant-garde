@@ -1,0 +1,284 @@
+{
+ "sortie": "/home/claude/reel-apec/sortie",
+ "musique": {
+  "bpm": 116,
+  "graine": 5,
+  "accords": [
+   [
+    52,
+    55,
+    59
+   ],
+   [
+    48,
+    52,
+    55
+   ],
+   [
+    55,
+    59,
+    62
+   ],
+   [
+    50,
+    54,
+    57
+   ]
+  ],
+  "basse": [
+   28,
+   24,
+   31,
+   26
+  ],
+  "gains": {
+   "drums": 0.9,
+   "bass": 0.95,
+   "pad": 1.15,
+   "arp": 1.1,
+   "fx": 1
+  }
+ },
+ "plans": [
+  {
+   "type": "video",
+   "source": "/home/claude/reel-apec/sommet.mp4",
+   "debut": 7,
+   "x": 913,
+   "mesures": 2.5,
+   "energie": "intro",
+   "bandeau": "Sommet de l’APEC",
+   "lignes": [
+    "Le 19 novembre,",
+    "à Shenzhen, Xi, Trump",
+    "et Poutine se sont assis",
+    "pour la **première fois**",
+    "à la même table."
+   ],
+   "apparitions": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "type": "photo",
+   "source": "/mnt/user-data/uploads/427b0adb-image.jpg",
+   "boite": [
+    620,
+    0,
+    1435,
+    1449
+   ],
+   "mesures": 2.0,
+   "energie": "groove",
+   "bandeau": "Shenzhen",
+   "lignes": [
+    "En 1978, Shenzhen",
+    "était un village",
+    "de pêcheurs. Elle compte",
+    "aujourd’hui **17 millions**",
+    "d’habitants."
+   ],
+   "apparitions": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "type": "photo",
+   "source": "/mnt/user-data/uploads/c10ae004-image.jpg",
+   "mesures": 2.0,
+   "energie": "groove",
+   "bandeau": "Qu’est-ce que l’APEC ?",
+   "lignes": [
+    "L’APEC, c’est le Forum",
+    "de coopération",
+    "économique pour",
+    "l’Asie-Pacifique.",
+    "Il réunit **21 économies**",
+    "depuis 1989."
+   ],
+   "boite": [
+    825,
+    351,
+    1375,
+    1329
+   ],
+   "apparitions": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "type": "aplat",
+   "energie": "plein",
+   "impact": true,
+   "style": "formule",
+   "taille": 100,
+   "bandeau": "Le basculement",
+   "lignes": [
+    "Le centre",
+    "de gravité",
+    "du monde est",
+    "dans le Pacifique."
+   ],
+   "apparitions": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "mesures": 1.5
+  },
+  {
+   "type": "photo",
+   "source": "/mnt/user-data/uploads/APEC/Port.png",
+   "boite": [
+    224,
+    0,
+    800,
+    1024
+   ],
+   "mesures": 2.0,
+   "energie": "plein",
+   "bandeau": "En chiffres",
+   "lignes": [
+    "Ensemble, elles pèsent",
+    "**37 %** de la population",
+    "et **60 %** du PIB mondial."
+   ],
+   "apparitions": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "type": "photo",
+   "source": "/mnt/user-data/uploads/APEC/XITRUMPPOUTINE.webp",
+   "boite": [
+    763,
+    0,
+    1531,
+    1365
+   ],
+   "mesures": 2.5,
+   "energie": "plein",
+   "bandeau": "Déclaration de paix",
+   "lignes": [
+    "Ils signent une",
+    "« déclaration de paix »",
+    "en quatre points, dont",
+    "une réforme de l’**ONU**."
+   ],
+   "apparitions": [
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "type": "photo",
+   "source": "/mnt/user-data/uploads/APEC/Mark_7_nuclear_bomb_at_USAF_Museum.jpg",
+   "boite": [
+    0,
+    0,
+    801,
+    1425
+   ],
+   "mesures": 2.5,
+   "energie": "plein",
+   "bandeau": "Nucléaire",
+   "lignes": [
+    "Ils promettent un",
+    "dialogue sur le nucléaire,",
+    "alors que le traité",
+    "**New START** a expiré",
+    "en février."
+   ],
+   "apparitions": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "type": "photo",
+   "source": "/mnt/user-data/uploads/APEC/Xi.jpg",
+   "boite": [
+    30,
+    0,
+    442,
+    732
+   ],
+   "mesures": 2.0,
+   "energie": "plein",
+   "lignes": [
+    "La **Chine** en ressort",
+    "**gagnante**. Elle pousse",
+    "pour une autre",
+    "gouvernance mondiale."
+   ],
+   "apparitions": [
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "type": "photo",
+   "source": "/mnt/user-data/uploads/APEC/2024-08-21_Event,_CDU,_Wahlkampf_mit_Friedrich_Merz_in_Erfurt_2024_STP_3042_by_Stepro.jpg",
+   "boite": [
+    900,
+    0,
+    2352,
+    2581
+   ],
+   "mesures": 2.5,
+   "energie": "creux",
+   "lignes": [
+    "Le même jour,",
+    "l’Europe parlait",
+    "armement à **Berlin**.",
+    "Aura-t-elle encore",
+    "sa place à la table ?"
+   ],
+   "apparitions": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "type": "fin",
+   "energie": "fin"
+  }
+ ],
+ "miniature": {
+  "source": "/mnt/user-data/uploads/APEC/XITRUMPPOUTINE.webp",
+  "centre_x": 1130,
+  "bandeau": "International",
+  "lignes": [
+   "À **Shenzhen**,",
+   "le monde change",
+   "de **centre de gravité**"
+  ]
+ },
+ "milieu": 0.75
+}
