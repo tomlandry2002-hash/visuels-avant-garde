@@ -12,6 +12,7 @@ Carnet tenu à chaque reel : les réglages utilisés et le retour de Tom. Ce qui
 
 ## Interdits
 - Musique sans harmonie ni groove (pulsation seule, impacts, tics) : rejetée le 25 novembre 2026, « très robotique, très bizarre, pas de rythme musical ».
+- Son sec et percutant (basse et batterie très en avant, nappe et arpège en retrait, 128 bpm, ré mineur avec accord de la majeur) : rejeté le 25 novembre 2026, « c'est vraiment à l'inverse ». Innover en gardant la chaleur du socle (nappe et arpège présents).
 - Reprendre le socle tel quel d'un reel à l'autre en ne changeant que la graine : jugé « répétitif » le 25 novembre 2026. Changer à chaque reel au moins la tonalité, la grille d'accords, le tempo et le dosage des pistes.
 
 ## Journal des reels
@@ -20,4 +21,4 @@ Carnet tenu à chaque reel : les réglages utilisés et le retour de Tom. Ce qui
 | 2026-11-25 | Nvidia v1 | pulsation 126 bpm, impacts, tics | Rejeté : robotique, pas musical |
 | 2026-11-25 | Nvidia v2 | socle ci-dessus, graine 3 | « C'est trop bien » |
 | 2026-11-25 | Droite v1 | socle, graine 7 | « Répétitif par rapport à la dernière », demande d'innover |
-| 2026-11-25 | Droite v2 | 128 bpm, ré mineur, ré m / si♭ / sol m / la (accord de la majeur, plus tendu), basse et batterie en avant, nappe et arpège en retrait, graine 11 | En attente |
+| 2026-11-25 | Droite v2 | 128 bpm, ré mineur, ré m / si♭ / sol m / la (accord de la majeur, plus tendu), basse et batterie en avant, nappe et arpège en retrait, graine 11 | Rejetée : « non », « c'est vraiment à l'inverse » ; v1 programmée |

@@ -1,0 +1,112 @@
+{
+ "sortie": "/home/claude/reel",
+ "musique": {
+  "bpm": 120,
+  "graine": 7
+ },
+ "plans": [
+  {
+   "type": "video",
+   "source": "/mnt/user-data/uploads/Lisnard.mov",
+   "debut": 2,
+   "x": 766,
+   "energie": "intro",
+   "bandeau": "Présidentielle 2027",
+   "lignes": [
+    "À près de cinq mois",
+    "de la présidentielle,",
+    "la **droite** compte",
+    "six candidats et",
+    "aucun **champion**."
+   ]
+  },
+  {
+   "type": "photo",
+   "source": "/mnt/user-data/uploads/a5055c0f-image.webp",
+   "boite": [
+    906,
+    0,
+    1674,
+    1365
+   ],
+   "energie": "groove",
+   "bandeau": "9 novembre",
+   "lignes": [
+    "Teddy Riner se dit",
+    "« ni de droite,",
+    "ni de gauche »,",
+    "mais son programme",
+    "penche bien à **droite**."
+   ]
+  },
+  {
+   "type": "photo",
+   "source": "/mnt/user-data/uploads/cc50b040-image.webp",
+   "boite": [
+    300,
+    0,
+    731,
+    767
+   ],
+   "energie": "groove",
+   "bandeau": "10 novembre",
+   "lignes": [
+    "Bruno Retailleau",
+    "propose une **primaire**",
+    "pour départager",
+    "tout ce petit monde."
+   ]
+  },
+  {
+   "type": "video",
+   "source": "/mnt/user-data/uploads/Philipe.mov",
+   "debut": 26,
+   "x": 820,
+   "energie": "groove",
+   "lignes": [
+    "Édouard Philippe,",
+    "premier à droite",
+    "dans les sondages,",
+    "**refuse** d’y participer."
+   ]
+  },
+  {
+   "type": "aplat",
+   "energie": "plein",
+   "impact": true,
+   "style": "formule",
+   "taille": 100,
+   "lignes": [
+    "Et Lisnard",
+    "veut y inviter",
+    "Zemmour."
+   ]
+  },
+  {
+   "type": "video",
+   "source": "/mnt/user-data/uploads/Lisnard.mov",
+   "debut": 7,
+   "x": 766,
+   "energie": "creux",
+   "lignes": [
+    "La droite peut-elle",
+    "encore s’en relever ?"
+   ]
+  },
+  {
+   "type": "fin",
+   "energie": "fin"
+  }
+ ],
+ "miniature": {
+  "source": "/mnt/user-data/uploads/a5055c0f-image.webp",
+  "centre_x": 1290,
+  "bandeau": "Présidentielle 2027",
+  "lignes": [
+   "Six prétendants et",
+   "**pas de champion**,",
+   "la **droite au tapis**"
+  ],
+  "taille": 80
+ }
+}
