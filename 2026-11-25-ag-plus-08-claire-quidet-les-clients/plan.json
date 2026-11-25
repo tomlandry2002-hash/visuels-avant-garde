@@ -1,0 +1,236 @@
+{
+ "sortie": "/home/claude/reels/reel2/sortie",
+ "source": "/home/claude/travail/extrait2.mp4",
+ "morceaux": [
+  [
+   1.95,
+   20.55,
+   300
+  ],
+  [
+   29.65,
+   36.3,
+   300
+  ],
+  [
+   52.45,
+   65.3,
+   300
+  ],
+  [
+   75.85,
+   93.55,
+   300
+  ]
+ ],
+ "contexte": "Extrait de l’émission<br><b>« Le fléau de la prostitution »</b>",
+ "nom": "Claire Quidet",
+ "qualite": "Mouvement du Nid",
+ "t_nom": [
+  0.6,
+  5.5
+ ],
+ "sous_titres": [
+  [
+   0.15,
+   2.0,
+   [
+    "Comme le disait un des clients",
+    "qu’on avait interrogé,"
+   ]
+  ],
+  [
+   3.05,
+   4.45,
+   [
+    "« Quand je mange",
+    "un steak,"
+   ]
+  ],
+  [
+   4.45,
+   6.55,
+   [
+    "je me demande pas",
+    "si la vache a **souffert**. »"
+   ]
+  ],
+  [
+   7.45,
+   9.65,
+   [
+    "Son attitude par rapport",
+    "à la prostitution, c’était ça."
+   ]
+  ],
+  [
+   9.95,
+   11.05,
+   [
+    "« Je paye"
+   ]
+  ],
+  [
+   11.05,
+   13.65,
+   [
+    "et je me demande pas",
+    "pourquoi cette femme est là."
+   ]
+  ],
+  [
+   13.95,
+   15.05,
+   [
+    "Qu’est-ce qui l’a amenée là ?"
+   ]
+  ],
+  [
+   15.05,
+   16.85,
+   [
+    "Est-ce qu’elle est contente",
+    "d’être là ?"
+   ]
+  ],
+  [
+   17.15,
+   18.55,
+   [
+    "Je ne me pose pas",
+    "la question. »"
+   ]
+  ],
+  [
+   18.75,
+   20.3,
+   [
+    "Contrairement à ce",
+    "qui est souvent dit,"
+   ]
+  ],
+  [
+   20.35,
+   22.85,
+   [
+    "ce ne sont pas",
+    "des **grands isolés**"
+   ]
+  ],
+  [
+   22.85,
+   25.2,
+   [
+    "affectifs et sexuels."
+   ]
+  ],
+  [
+   25.4,
+   28.3,
+   [
+    "L’énorme majorité sont",
+    "des hommes qui sont **mariés**"
+   ]
+  ],
+  [
+   28.7,
+   30.7,
+   [
+    "ou qui sont en couple."
+   ]
+  ],
+  [
+   31.1,
+   34.1,
+   [
+    "Les personnes prostituées",
+    "nous disent"
+   ]
+  ],
+  [
+   34.2,
+   38.0,
+   [
+    "« Il arrive en voiture,",
+    "il y a le **siège bébé** derrière. »"
+   ]
+  ],
+  [
+   38.25,
+   40.65,
+   [
+    "Ils ont une vie",
+    "sexuelle active,"
+   ]
+  ],
+  [
+   40.95,
+   43.15,
+   [
+    "mais ils vont chercher,",
+    "comme je disais,"
+   ]
+  ],
+  [
+   43.15,
+   44.55,
+   [
+    "quelque chose d’autre",
+    "dans la prostitution,"
+   ]
+  ],
+  [
+   44.55,
+   46.85,
+   [
+    "et notamment",
+    "quelque chose qui est"
+   ]
+  ],
+  [
+   46.85,
+   49.35,
+   [
+    "de l’ordre, vraiment,",
+    "de la domination."
+   ]
+  ],
+  [
+   49.55,
+   52.35,
+   [
+    "C’est là que nous, on dit,",
+    "la prostitution,"
+   ]
+  ],
+  [
+   52.45,
+   54.0,
+   [
+    "ce n’est pas une question",
+    "de sexualité,"
+   ]
+  ],
+  [
+   54.05,
+   55.75,
+   [
+    "c’est une question",
+    "de **domination**."
+   ]
+  ]
+ ],
+ "fin_texte": "L’entretien en entier sur<br>la chaîne YouTube<br><b>L’Avant-Garde Plus</b>",
+ "fin_titre": "Le fléau de la prostitution · #08",
+ "duree_fin": 3,
+ "miniature": {
+  "source": "/home/claude/reels/reel2/portrait.jpg",
+  "centre_x": 600,
+  "bandeau": "AG+",
+  "lignes": [
+   "Qui sont vraiment",
+   "**les clients** ?"
+  ],
+  "pied": "Claire Quidet, Mouvement du Nid"
+ }
+}

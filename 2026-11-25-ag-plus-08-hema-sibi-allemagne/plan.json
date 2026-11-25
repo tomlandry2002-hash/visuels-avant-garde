@@ -1,0 +1,192 @@
+{
+ "sortie": "/home/claude/reels/reel4/sortie",
+ "source": "/mnt/user-data/uploads/AG+8/reels/extrait4.mp4",
+ "morceaux": [
+  [
+   1.35,
+   21.2,
+   1080
+  ],
+  [
+   105.1,
+   128.2,
+   1080
+  ]
+ ],
+ "contexte": "Extrait de l’émission<br><b>« Le fléau de la prostitution »</b>",
+ "nom": "Héma Sibi",
+ "qualite": "CAP International",
+ "t_nom": [
+  0.6,
+  5.5
+ ],
+ "sous_titres": [
+  [
+   0.05,
+   1.55,
+   [
+    "Que s’est-il passé",
+    "en Allemagne"
+   ]
+  ],
+  [
+   1.55,
+   2.7,
+   [
+    "en plus de 20 ans ?"
+   ]
+  ],
+  [
+   2.75,
+   4.05,
+   [
+    "Aujourd’hui, on a",
+    "le recul nécessaire"
+   ]
+  ],
+  [
+   4.05,
+   6.05,
+   [
+    "pour voir l’impact",
+    "de cette législation."
+   ]
+  ],
+  [
+   6.35,
+   9.25,
+   [
+    "En réalité, le marché",
+    "de la prostitution a **explosé**."
+   ]
+  ],
+  [
+   9.75,
+   10.95,
+   [
+    "Selon les estimations,"
+   ]
+  ],
+  [
+   10.95,
+   14.0,
+   [
+    "près de **400 000** personnes",
+    "prostituées en Allemagne"
+   ]
+  ],
+  [
+   14.05,
+   15.5,
+   [
+    "par rapport à 40 000",
+    "en France"
+   ]
+  ],
+  [
+   15.55,
+   18.05,
+   [
+    "pour une population",
+    "à peu près similaire."
+   ]
+  ],
+  [
+   18.35,
+   19.85,
+   [
+    "On en a **10 fois moins**."
+   ]
+  ],
+  [
+   19.95,
+   22.05,
+   [
+    "Ce qu’on voit également,"
+   ]
+  ],
+  [
+   22.15,
+   25.7,
+   [
+    "c’est que lorsqu’on libéralise",
+    "le marché de la prostitution,"
+   ]
+  ],
+  [
+   26.15,
+   27.35,
+   [
+    "la demande, elle explose."
+   ]
+  ],
+  [
+   27.45,
+   28.95,
+   [
+    "Et donc en Allemagne,",
+    "aujourd’hui,"
+   ]
+  ],
+  [
+   28.95,
+   31.45,
+   [
+    "**un million d’hommes** vont",
+    "au bordel tous les jours."
+   ]
+  ],
+  [
+   31.65,
+   33.05,
+   [
+    "Et pour répondre",
+    "à cette demande,"
+   ]
+  ],
+  [
+   33.05,
+   34.95,
+   [
+    "on a des méga-bordels"
+   ]
+  ],
+  [
+   34.95,
+   36.85,
+   [
+    "qui vendent des femmes",
+    "à une échelle industrielle"
+   ]
+  ],
+  [
+   36.95,
+   39.55,
+   [
+    "avec des forfaits",
+    "et des deals comme"
+   ]
+  ],
+  [
+   39.65,
+   42.95,
+   [
+    "« 70 euros, hot-dog,",
+    "bière et **femme** »."
+   ]
+  ]
+ ],
+ "fin_texte": "L’entretien en entier sur<br>la chaîne YouTube<br><b>L’Avant-Garde Plus</b>",
+ "fin_titre": "Le fléau de la prostitution · #08",
+ "duree_fin": 3,
+ "miniature": {
+  "source": "/home/claude/reels/reel4/portrait.jpg",
+  "centre_x": 1380,
+  "bandeau": "AG+",
+  "lignes": [
+   "L’Allemagne, vingt ans",
+   "après **la légalisation**"
+  ],
+  "pied": "Héma Sibi, CAP International"
+ }
+}

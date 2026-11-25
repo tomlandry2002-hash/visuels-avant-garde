@@ -1,0 +1,177 @@
+{
+ "sortie": "/home/claude/reels/reel3/sortie",
+ "source": "/mnt/user-data/uploads/AG+8/reels/extrait3.mp4",
+ "morceaux": [
+  [
+   1.5,
+   26.6,
+   1170
+  ],
+  [
+   34.4,
+   52.58,
+   1170
+  ],
+  [
+   52.6,
+   54.2,
+   1015
+  ]
+ ],
+ "contexte": "Extrait de l’émission<br><b>« Le fléau de la prostitution »</b>",
+ "nom": "Héma Sibi",
+ "qualite": "CAP International",
+ "t_nom": [
+  0.6,
+  5.5
+ ],
+ "sous_titres": [
+  [
+   0.1,
+   2.45,
+   [
+    "C’est un proxénétisme",
+    "qu’on appelle d’opportunité"
+   ]
+  ],
+  [
+   3.1,
+   5.95,
+   [
+    "où on a aujourd’hui",
+    "des **dealers**"
+   ]
+  ],
+  [
+   6.0,
+   8.0,
+   [
+    "et donc des trafiquants",
+    "de drogue"
+   ]
+  ],
+  [
+   8.1,
+   11.35,
+   [
+    "qui se tournent",
+    "vers la prostitution"
+   ]
+  ],
+  [
+   11.4,
+   13.15,
+   [
+    "et vers le proxénétisme"
+   ]
+  ],
+  [
+   13.2,
+   16.6,
+   [
+    "parce que c’est un marché",
+    "extrêmement lucratif,"
+   ]
+  ],
+  [
+   16.8,
+   19.5,
+   [
+    "mais qui est moins,",
+    "finalement, réprimé"
+   ]
+  ],
+  [
+   20.0,
+   22.5,
+   [
+    "où il y a une plus",
+    "grande **impunité**"
+   ]
+  ],
+  [
+   22.5,
+   25.1,
+   [
+    "que sur la vente",
+    "de drogue."
+   ]
+  ],
+  [
+   25.2,
+   27.7,
+   [
+    "Aujourd’hui, on a des",
+    "exploiteurs qui en profitent"
+   ]
+  ],
+  [
+   27.9,
+   29.65,
+   [
+    "car c’est un marché",
+    "qui est rentable."
+   ]
+  ],
+  [
+   29.7,
+   31.7,
+   [
+    "Et à la différence",
+    "des drogues,"
+   ]
+  ],
+  [
+   31.7,
+   33.5,
+   [
+    "les personnes peuvent être",
+    "achetées, vendues"
+   ]
+  ],
+  [
+   33.5,
+   35.7,
+   [
+    "**plusieurs fois**."
+   ]
+  ],
+  [
+   36.0,
+   39.9,
+   [
+    "Elles n’ont pas besoin d’être",
+    "empaquetées, distillées…"
+   ]
+  ],
+  [
+   40.2,
+   43.0,
+   [
+    "Donc les coûts sont",
+    "plutôt marginaux"
+   ]
+  ],
+  [
+   43.0,
+   44.83,
+   [
+    "par rapport à de très",
+    "grands **profits**."
+   ]
+  ]
+ ],
+ "fin_texte": "L’entretien en entier sur<br>la chaîne YouTube<br><b>L’Avant-Garde Plus</b>",
+ "fin_titre": "Le fléau de la prostitution · #08",
+ "duree_fin": 3,
+ "miniature": {
+  "source": "/home/claude/reels/reel3/portrait.jpg",
+  "centre_x": 1480,
+  "bandeau": "AG+",
+  "lignes": [
+   "Quand les dealers",
+   "deviennent **proxénètes**"
+  ],
+  "pied": "Héma Sibi, CAP International"
+ }
+}
