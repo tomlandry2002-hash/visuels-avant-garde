@@ -1,0 +1,202 @@
+{
+ "sortie": "/home/claude/reel1/sortie",
+ "source": "/mnt/user-data/uploads/AG+8/reels/extrait1.mp4",
+ "morceaux": [
+  [
+   1.2,
+   51.85,
+   300
+  ]
+ ],
+ "titre": [],
+ "bandeau": "Claire Quidet · Mouvement du Nid",
+ "sous_titres": [
+  [
+   0.14,
+   2.08,
+   [
+    "Est-ce qu’on peut",
+    "comprendre aussi"
+   ]
+  ],
+  [
+   2.08,
+   4.2,
+   [
+    "que pour quelques personnes",
+    "qui revendiquent leur **choix**,"
+   ]
+  ],
+  [
+   4.2,
+   7.2,
+   [
+    "moi je pourrais dire, si j’ai",
+    "pas de problème d’argent,"
+   ]
+  ],
+  [
+   7.72,
+   10.18,
+   [
+    "je pourrais dire",
+    "je choisis de travailler"
+   ]
+  ],
+  [
+   10.18,
+   11.75,
+   [
+    "pour **500 euros** par mois."
+   ]
+  ],
+  [
+   12.16,
+   13.5,
+   [
+    "Après tout, c’est mon choix."
+   ]
+  ],
+  [
+   14.14,
+   17.05,
+   [
+    "Il se trouve que par ailleurs,",
+    "je sais pas, j’ai hérité."
+   ]
+  ],
+  [
+   17.22,
+   19.2,
+   [
+    "Donc je n’ai pas",
+    "besoin de plus."
+   ]
+  ],
+  [
+   19.88,
+   22.4,
+   [
+    "Et pourtant, en France,",
+    "on a un **salaire minimum**"
+   ]
+  ],
+  [
+   22.4,
+   24.7,
+   [
+    "et donc les employeurs",
+    "n’ont pas le droit"
+   ]
+  ],
+  [
+   24.7,
+   26.72,
+   [
+    "de payer quelqu’un",
+    "qui travaille à temps complet"
+   ]
+  ],
+  [
+   26.72,
+   28.9,
+   [
+    "500 euros par mois."
+   ]
+  ],
+  [
+   28.9,
+   31.62,
+   [
+    "Mais si c’est mon choix,",
+    "pourquoi on empêcherait ?"
+   ]
+  ],
+  [
+   31.62,
+   34.62,
+   [
+    "Parce qu’on a",
+    "très bien compris"
+   ]
+  ],
+  [
+   34.62,
+   36.3,
+   [
+    "que pour une personne",
+    "comme moi,"
+   ]
+  ],
+  [
+   36.3,
+   38.0,
+   [
+    "pour qui ce serait",
+    "un vrai choix,"
+   ]
+  ],
+  [
+   38.18,
+   41.04,
+   [
+    "ça permettrait",
+    "aux employeurs d’**exploiter**"
+   ]
+  ],
+  [
+   41.04,
+   43.4,
+   [
+    "des **millions** de personnes"
+   ]
+  ],
+  [
+   43.46,
+   46.3,
+   [
+    "qui ont besoin de plus de",
+    "500 euros par mois pour vivre."
+   ]
+  ],
+  [
+   46.7,
+   48.95,
+   [
+    "Et donc, on a fixé",
+    "un salaire minimum."
+   ]
+  ],
+  [
+   49.08,
+   50.55,
+   [
+    "C’est **la même chose**."
+   ]
+  ]
+ ],
+ "fin_texte": "L’entretien en entier sur<br>la chaîne YouTube<br><b>L’Avant-Garde Plus</b>",
+ "miniature": {
+  "source": "/home/claude/reel1/portrait.jpg",
+  "centre_x": 600,
+  "bandeau": "AG+",
+  "lignes": [
+   "Et si c’était",
+   "**leur choix** ?"
+  ],
+  "pied": "Claire Quidet, Mouvement du Nid"
+ },
+ "contexte": "Extrait de l’émission<br><b>« Le fléau de la prostitution »</b>",
+ "fin_titre": "Le fléau de la prostitution · #08",
+ "duree_fin": 3,
+ "nom": "Claire Quidet",
+ "qualite": "Mouvement du Nid",
+ "t_ctx": [
+  0.2,
+  4.5
+ ],
+ "t_nom": [
+  0.6,
+  5.5
+ ]
+}
