@@ -22,3 +22,11 @@ Carnet tenu à chaque reel : les réglages utilisés et le retour de Tom. Ce qui
 | 2026-11-25 | Nvidia v2 | socle ci-dessus, graine 3 | « C'est trop bien » |
 | 2026-11-25 | Droite v1 | socle, graine 7 | « Répétitif par rapport à la dernière », demande d'innover |
 | 2026-11-25 | Droite v2 | 128 bpm, ré mineur, ré m / si♭ / sol m / la (accord de la majeur, plus tendu), basse et batterie en avant, nappe et arpège en retrait, graine 11 | Rejetée : « non », « c'est vraiment à l'inverse » ; v1 programmée |
+| 2026-11-25 | APEC Shenzhen v5 | 116 bpm, mi mineur, mi m / do / sol / ré, basse [28,24,31,26], nappe 1,15, arpège 1,1, batterie 0,9, graine 5 | Validée (« c’est top »), pas de remarque sur la musique ; programmée le 26 novembre à 18 h |
+
+## Retours de Tom sur le montage (reel APEC, 25 novembre 2026)
+- Phrase entière affichée d’un coup à chaque plan (`apparitions` toutes à 0) : l’apparition ligne par ligne ne se comprend pas.
+- Durée de chaque plan calée sur le temps de lecture (environ 4,5 mots par seconde plus 0,6 s), ni sec ni lent.
+- Contraste : `milieu` à 0,75 pour assombrir les images sous le texte.
+- Du fond, de vraies phrases sans bouts inutiles ; définir les sigles (l’APEC) ; ne pas hésiter à faire plus de plans ; pas de détail sans intérêt (« rien de contraignant »).
+- Cadrages : visages visibles au-dessus du texte, éviter les plans larges où les personnes sont minuscules, couper les bandeaux de chaînes télé.
