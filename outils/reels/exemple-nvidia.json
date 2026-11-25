@@ -1,0 +1,102 @@
+{
+ "sortie": "/home/claude/reel",
+ "musique": {
+  "bpm": 120,
+  "graine": 3
+ },
+ "plans": [
+  {
+   "type": "video",
+   "source": "/mnt/user-data/uploads/keynote.mov",
+   "debut": 4,
+   "x": 700,
+   "energie": "intro",
+   "bandeau": "Géopolitique de l’IA",
+   "lignes": [
+    "Le patron de **Nvidia**",
+    "a été poussé dehors,",
+    "puis rappelé onze",
+    "jours plus tard."
+   ]
+  },
+  {
+   "type": "video",
+   "source": "/mnt/user-data/uploads/keynote.mov",
+   "debut": 8,
+   "x": 700,
+   "energie": "groove",
+   "bandeau": "12 novembre",
+   "lignes": [
+    "Il démissionne après",
+    "une liaison avec",
+    "une femme d’affaires",
+    "soupçonnée",
+    "d’**espionnage**."
+   ]
+  },
+  {
+   "type": "video",
+   "source": "/mnt/user-data/uploads/keynote.mov",
+   "debut": 12,
+   "x": 700,
+   "energie": "groove",
+   "bandeau": "23 novembre",
+   "lignes": [
+    "Avec le soutien de",
+    "**Trump** et de **Musk**,",
+    "il retrouve son poste."
+   ]
+  },
+  {
+   "type": "aplat",
+   "energie": "plein",
+   "impact": true,
+   "style": "formule",
+   "taille": 100,
+   "bandeau": "Le fond de l’affaire",
+   "lignes": [
+    "Mais Nvidia",
+    "ne possède",
+    "pas une seule",
+    "usine."
+   ]
+  },
+  {
+   "type": "photo",
+   "source": "/mnt/user-data/uploads/puce.jpg",
+   "boite": [
+    880,
+    0,
+    1527,
+    1150
+   ],
+   "energie": "plein",
+   "lignes": [
+    "Ses puces sont",
+    "fabriquées à **Taïwan**,",
+    "au cœur du bras de fer",
+    "sino-américain."
+   ]
+  },
+  {
+   "type": "photo",
+   "source": "/mnt/user-data/uploads/bureau.jpg",
+   "boite": [
+    760,
+    0,
+    1847,
+    1932
+   ],
+   "energie": "creux",
+   "lignes": [
+    "Simple affaire de mœurs,",
+    "ou partie qui se joue",
+    "en coulisses ?"
+   ]
+  },
+  {
+   "type": "fin",
+   "energie": "fin"
+  }
+ ]
+}
