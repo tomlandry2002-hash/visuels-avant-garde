@@ -154,11 +154,65 @@ def fond_uni(d):
     for _ in range(int(round(d * FPS))):
         yield np.zeros((H, W, 3), np.uint8)
 
+# ---------------------------------------------------------------- miniature
+def miniature(m, dossier):
+    """Couverture 1080 × 1920 dans le style du visuel Article : photo plein cadre, bandeau rouge,
+    titre en romain avec mots en gras, logo et pied. Tout le texte tient dans la zone 4:5 centrale
+    (y 285 à 1635), celle que montre la grille du profil Instagram."""
+    from playwright.sync_api import sync_playwright
+    im = Image.open(m['source']).convert('RGB')
+    if m.get('boite'):
+        im = im.crop(tuple(m['boite']))
+    else:
+        cw = int(im.height * 9 / 16)
+        if cw <= im.width:
+            cx = m.get('centre_x', im.width // 2); x0 = min(max(cx - cw // 2, 0), im.width - cw)
+            im = im.crop((x0, 0, x0 + cw, im.height))
+        else:
+            ch = int(im.width * 16 / 9); y0 = min(m.get('haut', 0), max(im.height - ch, 0))
+            im = im.crop((0, y0, im.width, y0 + min(ch, im.height)))
+    im = im.resize((W, H), Image.LANCZOS)
+    if m.get('bichromie'):
+        im = Image.fromarray(bichro(np.asarray(im.convert('L')), table())[0])
+    fond = os.path.join(dossier, 'miniature-fond.jpg'); im.save(fond, quality=92)
+    logo = open(os.path.join(ICI, 'logo-ag.svg')).read().replace('<svg ', '<svg width="75" height="75" ', 1)
+    def b(s):
+        out, o = '', False
+        for i, x in enumerate(s.split('**')):
+            out += x if i == 0 else (('</b>' if o else '<b>') + x)
+            if i: o = not o
+        return out
+    titre = '<br>'.join(b(l) for l in m['lignes'])
+    stops = ', '.join(f'rgba(11, 11, 12, {0.85 * (t * t * (3 - 2 * t)) ** 0.8:.3f}) {900 * t:.0f}px' for t in (i / 20 for i in range(21)))
+    page = f"""<!DOCTYPE html><html><head><meta charset="utf-8"><style>{css()}
+.f{{position:absolute;inset:0;width:1080px;height:1920px}}.v{{position:absolute;inset:0;background:rgba(0,0,0,.1)}}
+.o{{position:absolute;left:0;top:{1635 - 900 + 100}px;width:1080px;height:900px;background:linear-gradient(180deg,{stops})}}
+.o2{{position:absolute;left:0;top:{1635 + 100}px;width:1080px;height:300px;background:rgba(11,11,12,.85)}}
+.bd{{display:inline-block;height:52px;padding:0 44px;margin-bottom:20px;background:linear-gradient(90deg,#c41d22,#dc2a2a);font-weight:800;font-style:italic;font-size:34px;line-height:52px;text-transform:uppercase}}
+.ti{{font-size:{m.get('taille', 80)}px;line-height:1.2;letter-spacing:-.02em;text-shadow:0 0 48px rgba(0,0,0,.6),0 2px 14px rgba(0,0,0,.45)}}.ti b{{font-weight:700}}
+.bl{{position:absolute;left:108px;right:108px;bottom:{1920 - 1490}px}}
+.lg{{position:absolute;left:268px;top:1530px;width:75px;height:75px}}
+.pd{{position:absolute;left:378px;top:1567px;transform:translateY(-50%);font-style:italic;font-size:28px}}
+</style></head><body><img class="f" src="file://{fond}"><div class="v"></div><div class="o"></div><div class="o2"></div>
+<div class="bl">{f'<div class="bd">{m["bandeau"]}</div>' if m.get('bandeau') else ''}<div class="ti">{titre}</div></div>
+<div class="lg">{logo}</div><div class="pd">{m.get('pied', 'À lire sur lavantgarde.fr')}</div></body></html>"""
+    f = os.path.join(dossier, 'miniature.html'); open(f, 'w').write(page)
+    with sync_playwright() as pw:
+        br = pw.chromium.launch(executable_path='/usr/bin/google-chrome', args=['--allow-file-access-from-files'])
+        pg = br.new_page(viewport={'width': W, 'height': H}); pg.goto('file://' + f); pg.wait_for_timeout(500)
+        pg.screenshot(path=os.path.join(dossier, 'miniature.png')); br.close()
+    out = os.path.join(dossier, 'miniature.jpg')
+    Image.open(os.path.join(dossier, 'miniature.png')).convert('RGB').save(out, quality=92)
+    Image.open(out).crop((0, 285, 1080, 1635)).resize((540, 675)).save(os.path.join(dossier, 'miniature-grille.jpg'), quality=85)
+    return out
+
 # ---------------------------------------------------------------- principal
 def main():
     cfg = json.load(open(sys.argv[1]))
     dossier = cfg.get('sortie', os.path.dirname(os.path.abspath(sys.argv[1])))
     os.makedirs(dossier, exist_ok=True)
+    if len(sys.argv) > 2 and sys.argv[2] == '--miniature':
+        print('Miniature :', miniature(cfg['miniature'], dossier)); return
     mus = cfg.get('musique', {})
     temps = 60 / mus.get('bpm', 120)
     plans = cfg['plans']
@@ -169,6 +223,12 @@ def main():
     enc = subprocess.Popen(['ffmpeg', '-v', 'error', '-y', '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-s', f'{W}x{H}', '-r', str(FPS), '-i', '-',
                             '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '19', '-pix_fmt', 'yuv420p', sortie], stdin=subprocess.PIPE)
     vignettes = []
+    tete = 0
+    if cfg.get('miniature'):
+        mini = np.asarray(Image.open(miniature(cfg['miniature'], dossier)).convert('RGB'))
+        tete = 2  # la miniature en tête de vidéo (2 images), pour qu'elle serve de couverture par défaut
+        for _ in range(tete):
+            enc.stdin.write(mini.tobytes())
     for k, (p, d) in enumerate(zip(plans, durees)):
         n_etats = nb[k]
         pas = p.get('rythme', 2 * temps / 2)  # une ligne par temps par défaut
@@ -197,7 +257,7 @@ def main():
     wav = os.path.join(dossier, 'musique.wav')
     subprocess.run([sys.executable, os.path.join(ICI, 'musique.py'), '--sortie', wav, '--reglages', json.dumps(mus),
                     '--sections', json.dumps(sections)], check=True)
-    subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', sortie, '-i', wav, '-map', '0:v', '-map', '1:a', '-c:v', 'copy', '-c:a', 'aac',
+    subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', sortie, '-i', wav, '-map', '0:v', '-map', '1:a', '-c:v', 'copy', '-af', f'adelay={round(tete * 1000 / FPS)}:all=1', '-c:a', 'aac',
                     '-b:a', '192k', '-shortest', '-movflags', '+faststart', os.path.join(dossier, 'reel.mp4')], check=True)
     print(f'OK : {os.path.join(dossier, "reel.mp4")} ({sum(durees):.1f} s), planche.jpg à regarder')
 

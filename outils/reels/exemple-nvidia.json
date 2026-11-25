@@ -98,5 +98,16 @@
    "type": "fin",
    "energie": "fin"
   }
- ]
+ ],
+ "miniature": {
+  "source": "/mnt/user-data/uploads/portrait.jpg",
+  "haut": 60,
+  "bandeau": "Géopolitique de l’IA",
+  "lignes": [
+   "**Jensen Huang**,",
+   "**poussé dehors**",
+   "puis **rappelé**",
+   "chez **Nvidia**"
+  ]
+ }
 }
