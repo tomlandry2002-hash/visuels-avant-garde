@@ -39,7 +39,7 @@ for a, b, w in mots:
         m2.append([a, b, w])
 mots = m2
 for t, old, neu in cfg.get('corrections', []):   # [temps absolu approx., mot transcrit, mot juste]
-    c = [m for m in mots if m[2].lower().strip('.,') == old.lower() and abs(m[0] + dec - t) < 0.6]
+    c = [m for m in mots if m[2].lower().strip('.,') == old.lower().strip('.,') and abs(m[0] + dec - t) < 0.6]
     if not c: print('correction introuvable', t, old)
     else: min(c, key=lambda m: abs(m[0] + dec - t))[2] = neu
 seg = []; tpos = 0.0

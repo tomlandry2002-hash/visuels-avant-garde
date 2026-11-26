@@ -1,0 +1,215 @@
+{
+ "decalage": 3292.0,
+ "accroche": [
+  "« IL FAUT DU BLEU PARTOUT »…",
+  "MAIS ILS SUPPRIMENT *LES POSTES*"
+ ],
+ "corrections": [
+  [
+   3295.65,
+   "vu",
+   "vu,"
+  ],
+  [
+   3296.97,
+   "écoles",
+   "écoles,"
+  ],
+  [
+   3299.03,
+   "hôpitaux",
+   "hôpitaux,"
+  ],
+  [
+   3300.65,
+   "tribunaux",
+   "tribunaux,"
+  ],
+  [
+   3302.49,
+   "sécurité",
+   "sécurité,"
+  ],
+  [
+   3304.21,
+   "sécurité",
+   "sécurité."
+  ],
+  [
+   3308.77,
+   "sécurité",
+   "sécurité,"
+  ],
+  [
+   3310.87,
+   "police",
+   "police,"
+  ],
+  [
+   3311.89,
+   "partout",
+   "partout,"
+  ],
+  [
+   3314.95,
+   "fonctionnaires",
+   "fonctionnaires,"
+  ],
+  [
+   3316.05,
+   "comment",
+   "comment ?"
+  ],
+  [
+   3319.27,
+   "ya",
+   "n'y a"
+  ],
+  [
+   3320.67,
+   "portes",
+   "ports,"
+  ],
+  [
+   3321.35,
+   "aéroports",
+   "aéroports,"
+  ],
+  [
+   3322.43,
+   "contrôlent",
+   "contrôler"
+  ],
+  [
+   3323.01,
+   "frontières",
+   "frontières ?"
+  ]
+ ],
+ "morceaux": [
+  [
+   1.55,
+   4.28,
+   446,
+   455,
+   640,
+   1.0,
+   1.05
+  ],
+  [
+   4.28,
+   7.0,
+   1050,
+   395,
+   760,
+   1.0,
+   1.05
+  ],
+  [
+   7.0,
+   9.3,
+   876,
+   395,
+   760,
+   1.12,
+   1.16
+  ],
+  [
+   9.3,
+   12.7,
+   839,
+   395,
+   760,
+   1.0,
+   1.05
+  ],
+  [
+   12.7,
+   16.6,
+   793,
+   395,
+   760,
+   1.14,
+   1.18
+  ],
+  [
+   16.6,
+   20.2,
+   854,
+   383,
+   760,
+   1.0,
+   1.05
+  ],
+  [
+   20.2,
+   23.2,
+   901,
+   395,
+   760,
+   1.15,
+   1.2
+  ],
+  [
+   23.2,
+   24.35,
+   429,
+   455,
+   640,
+   1.0,
+   1.03
+  ],
+  [
+   25.35,
+   31.1,
+   485,
+   455,
+   640,
+   1.06,
+   1.12
+  ]
+ ],
+ "source": "/mnt/user-data/uploads/Movies/Roussel/reels/ext-08-securite.mp4",
+ "transcription": "/home/claude/roussel/transcription.jsonl",
+ "sortie": "/home/claude/roussel/out/08-securite",
+ "musique": {
+  "bpm": 104,
+  "accords": [
+   [
+    52,
+    55,
+    59
+   ],
+   [
+    48,
+    52,
+    55
+   ],
+   [
+    50,
+    53,
+    57
+   ],
+   [
+    47,
+    50,
+    54
+   ]
+  ],
+  "basse": [
+   28,
+   24,
+   26,
+   23
+  ],
+  "graine": 22,
+  "gains": {
+   "drums": 0.7,
+   "bass": 0.8,
+   "pad": 1.15,
+   "arp": 0.9,
+   "fx": 0.4
+  },
+  "volume": -19
+ }
+}

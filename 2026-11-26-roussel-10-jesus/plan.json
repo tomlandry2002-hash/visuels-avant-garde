@@ -1,0 +1,134 @@
+{
+ "decalage": 3734.0,
+ "accroche": [
+  "JÉSUS ÉTAIT-IL DE GAUCHE ?",
+  "ROUSSEL ET *LES PETITS PAINS*"
+ ],
+ "corrections": [
+  [
+   3739.43,
+   "pense,",
+   "pense…"
+  ],
+  [
+   3756.63,
+   "cœur,",
+   "cœur,"
+  ],
+  [
+   3757.19,
+   "était",
+   "aimait"
+  ],
+  [
+   3758.81,
+   "était",
+   "aimait"
+  ],
+  [
+   3758.95,
+   "sans",
+   "son"
+  ],
+  [
+   3759.15,
+   "prochain",
+   "prochain."
+  ],
+  [
+   3760.17,
+   "répondu,",
+   "répondu :"
+  ]
+ ],
+ "morceaux": [
+  [
+   17.35,
+   22.7,
+   969,
+   395,
+   760,
+   1.0,
+   1.06
+  ],
+  [
+   22.7,
+   24.6,
+   988,
+   395,
+   760,
+   1.14,
+   1.18
+  ],
+  [
+   24.6,
+   26.2,
+   1355,
+   455,
+   640,
+   1.0,
+   1.04
+  ],
+  [
+   26.2,
+   29.4,
+   903,
+   395,
+   760,
+   1.1,
+   1.16
+  ],
+  [
+   29.4,
+   30.3,
+   909,
+   435,
+   680,
+   1.0,
+   1.04
+  ]
+ ],
+ "source": "/mnt/user-data/uploads/Movies/Roussel/reels/ext-10-jesus.mp4",
+ "transcription": "/home/claude/roussel/transcription.jsonl",
+ "sortie": "/home/claude/roussel/out/10-jesus",
+ "musique": {
+  "bpm": 100,
+  "accords": [
+   [
+    57,
+    60,
+    64
+   ],
+   [
+    53,
+    57,
+    60
+   ],
+   [
+    55,
+    59,
+    62
+   ],
+   [
+    52,
+    55,
+    59
+   ]
+  ],
+  "basse": [
+   33,
+   29,
+   31,
+   28
+  ],
+  "graine": 24,
+  "gains": {
+   "drums": 0.7,
+   "bass": 0.8,
+   "pad": 1.15,
+   "arp": 0.9,
+   "fx": 0.4
+  },
+  "volume": -19
+ }
+}

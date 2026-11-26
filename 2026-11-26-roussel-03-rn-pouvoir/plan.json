@@ -1,0 +1,191 @@
+{
+ "decalage": 249.5,
+ "accroche": [
+  "« ON N'A JAMAIS ESSAYÉ LE RN » ?",
+  "ILS ONT *DÉJÀ* ÉTÉ AU POUVOIR"
+ ],
+ "corrections": [
+  [
+   256.42,
+   "national",
+   "national,"
+  ],
+  [
+   257.26,
+   "essayé",
+   "essayé ?"
+  ],
+  [
+   259.14,
+   "essayé",
+   "essayé."
+  ],
+  [
+   262.04,
+   "france",
+   "France,"
+  ],
+  [
+   264.04,
+   "même",
+   "même."
+  ],
+  [
+   316.28,
+   "pouvoir.",
+   "pouvoir."
+  ],
+  [
+   325.72,
+   "beau",
+   "bouc"
+  ],
+  [
+   325.92,
+   "commissaire,",
+   "émissaire,"
+  ],
+  [
+   326.86,
+   "l'on",
+   "l'ont"
+  ],
+  [
+   327.2,
+   "de",
+   ""
+  ],
+  [
+   327.3,
+   "leur",
+   "leurs"
+  ],
+  [
+   327.34,
+   "prédécesseur",
+   "prédécesseurs"
+  ],
+  [
+   328.16,
+   "France",
+   "France"
+  ]
+ ],
+ "morceaux": [
+  [
+   1.7,
+   7.9,
+   946,
+   395,
+   760,
+   1.0,
+   1.06
+  ],
+  [
+   7.9,
+   10.5,
+   1000,
+   395,
+   760,
+   1.15,
+   1.2
+  ],
+  [
+   10.5,
+   13.2,
+   909,
+   395,
+   760,
+   1.0,
+   1.04
+  ],
+  [
+   13.2,
+   14.7,
+   1352,
+   455,
+   640,
+   1.05,
+   1.08
+  ],
+  [
+   65.0,
+   67.5,
+   933,
+   395,
+   760,
+   1.0,
+   1.05
+  ],
+  [
+   67.5,
+   69.0,
+   857,
+   395,
+   760,
+   1.16,
+   1.2
+  ],
+  [
+   69.0,
+   76.9,
+   874,
+   395,
+   760,
+   1.0,
+   1.08
+  ],
+  [
+   76.9,
+   80.3,
+   982,
+   395,
+   760,
+   1.14,
+   1.2
+  ]
+ ],
+ "source": "/mnt/user-data/uploads/Movies/Roussel/reels/ext-03-rn-pouvoir.mp4",
+ "transcription": "/home/claude/roussel/transcription.jsonl",
+ "sortie": "/home/claude/roussel/out/03-rn-pouvoir",
+ "musique": {
+  "bpm": 104,
+  "accords": [
+   [
+    52,
+    55,
+    59
+   ],
+   [
+    48,
+    52,
+    55
+   ],
+   [
+    50,
+    53,
+    57
+   ],
+   [
+    47,
+    50,
+    54
+   ]
+  ],
+  "basse": [
+   28,
+   24,
+   26,
+   23
+  ],
+  "graine": 22,
+  "gains": {
+   "drums": 0.7,
+   "bass": 0.8,
+   "pad": 1.15,
+   "arp": 0.9,
+   "fx": 0.4
+  },
+  "volume": -19
+ }
+}

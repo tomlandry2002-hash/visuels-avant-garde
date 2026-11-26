@@ -1,0 +1,133 @@
+{
+ "decalage": 3087.0,
+ "accroche": [
+  "NOS IMPÔTS, NOS TGV…",
+  "*AUX ENTREPRISES FRANÇAISES*"
+ ],
+ "corrections": [
+  [
+   3089.45,
+   "programme",
+   "programme :"
+  ],
+  [
+   3092.69,
+   "françaises",
+   "françaises."
+  ],
+  [
+   3096.11,
+   "commandent",
+   "commande"
+  ],
+  [
+   3096.55,
+   "publics,",
+   "publique,"
+  ],
+  [
+   3104.93,
+   "répondre.",
+   "répondre."
+  ]
+ ],
+ "morceaux": [
+  [
+   1.45,
+   6.6,
+   592,
+   425,
+   700,
+   1.0,
+   1.06
+  ],
+  [
+   6.6,
+   10.0,
+   703,
+   425,
+   700,
+   1.14,
+   1.18
+  ],
+  [
+   10.0,
+   14.6,
+   510,
+   425,
+   700,
+   1.0,
+   1.05
+  ],
+  [
+   15.3,
+   16.05,
+   617,
+   425,
+   700,
+   1.1,
+   1.12
+  ],
+  [
+   17.25,
+   20.56,
+   514,
+   425,
+   700,
+   1.0,
+   1.05
+  ],
+  [
+   20.56,
+   24.45,
+   1135,
+   395,
+   760,
+   1.08,
+   1.14
+  ]
+ ],
+ "source": "/mnt/user-data/uploads/Movies/Roussel/reels/ext-11-commande-publique.mp4",
+ "transcription": "/home/claude/roussel/transcription.jsonl",
+ "sortie": "/home/claude/roussel/out/11-commande-publique",
+ "musique": {
+  "bpm": 108,
+  "accords": [
+   [
+    48,
+    51,
+    55
+   ],
+   [
+    44,
+    48,
+    51
+   ],
+   [
+    46,
+    50,
+    53
+   ],
+   [
+    43,
+    46,
+    50
+   ]
+  ],
+  "basse": [
+   24,
+   20,
+   22,
+   19
+  ],
+  "graine": 25,
+  "gains": {
+   "drums": 0.7,
+   "bass": 0.8,
+   "pad": 1.15,
+   "arp": 0.9,
+   "fx": 0.4
+  },
+  "volume": -19
+ }
+}

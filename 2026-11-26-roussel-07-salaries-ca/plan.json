@@ -1,0 +1,123 @@
+{
+ "decalage": 2644.5,
+ "accroche": [
+  "ET SI LES SALARIÉS",
+  "DÉCIDAIENT *À 50 %* ?"
+ ],
+ "corrections": [
+  [
+   2690.61,
+   "et",
+   "Et"
+  ],
+  [
+   2692.75,
+   "révolution",
+   "révolution."
+  ],
+  [
+   2648.65,
+   "programme.",
+   "programme."
+  ]
+ ],
+ "morceaux": [
+  [
+   1.8,
+   4.45,
+   959,
+   395,
+   760,
+   1.0,
+   1.05
+  ],
+  [
+   4.45,
+   12.6,
+   994,
+   395,
+   760,
+   1.1,
+   1.18
+  ],
+  [
+   12.6,
+   18.0,
+   1028,
+   395,
+   760,
+   1.0,
+   1.05
+  ],
+  [
+   18.0,
+   23.05,
+   1096,
+   395,
+   760,
+   1.12,
+   1.17
+  ],
+  [
+   23.05,
+   27.8,
+   1051,
+   395,
+   760,
+   1.0,
+   1.06
+  ],
+  [
+   46.05,
+   48.6,
+   955,
+   395,
+   760,
+   1.15,
+   1.2
+  ]
+ ],
+ "source": "/mnt/user-data/uploads/Movies/Roussel/reels/ext-07-salaries-ca.mp4",
+ "transcription": "/home/claude/roussel/transcription.jsonl",
+ "sortie": "/home/claude/roussel/out/07-salaries-ca",
+ "musique": {
+  "bpm": 96,
+  "accords": [
+   [
+    50,
+    53,
+    57
+   ],
+   [
+    46,
+    50,
+    53
+   ],
+   [
+    48,
+    52,
+    55
+   ],
+   [
+    45,
+    48,
+    52
+   ]
+  ],
+  "basse": [
+   26,
+   22,
+   24,
+   21
+  ],
+  "graine": 21,
+  "gains": {
+   "drums": 0.7,
+   "bass": 0.8,
+   "pad": 1.15,
+   "arp": 0.9,
+   "fx": 0.4
+  },
+  "volume": -19
+ }
+}

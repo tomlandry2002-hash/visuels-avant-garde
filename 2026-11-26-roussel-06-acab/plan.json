@@ -1,0 +1,192 @@
+{
+ "decalage": 2398.5,
+ "accroche": [
+  "« ACAB » CHANTÉ AU BATACLAN…",
+  "ROUSSEL PROPOSE *SA VERSION*"
+ ],
+ "corrections": [
+  [
+   2400.23,
+   "honteux",
+   "Honteux,"
+  ],
+  [
+   2400.77,
+   "scandaleux",
+   "scandaleux,"
+  ],
+  [
+   2401.59,
+   "inadmissibles",
+   "inadmissible."
+  ],
+  [
+   2402.89,
+   "ne",
+   "ne me"
+  ],
+  [
+   2404.31,
+   "appellation.",
+   "appellation."
+  ],
+  [
+   2424.83,
+   "plus,",
+   "En plus,"
+  ],
+  [
+   2425.31,
+   "aux",
+   "au"
+  ],
+  [
+   2425.33,
+   "bataquelants,",
+   "Bataclan,"
+  ],
+  [
+   2431.45,
+   "humaines",
+   "humaines,"
+  ],
+  [
+   2433.89,
+   "péril",
+   "péril,"
+  ],
+  [
+   2450.31,
+   "Communists,",
+   "Communists"
+  ],
+  [
+   2450.97,
+   "à",
+   "Are"
+  ],
+  [
+   2451.09,
+   "Arbiotifoul.",
+   "Beautiful."
+  ],
+  [
+   2453.33,
+   "à",
+   ""
+  ],
+  [
+   2453.59,
+   "Cab",
+   "ACAB"
+  ]
+ ],
+ "morceaux": [
+  [
+   1.65,
+   3.95,
+   485,
+   409,
+   640,
+   1.0,
+   1.06
+  ],
+  [
+   3.95,
+   6.3,
+   505,
+   399,
+   640,
+   1.14,
+   1.18
+  ],
+  [
+   26.2,
+   30.68,
+   924,
+   395,
+   760,
+   1.0,
+   1.06
+  ],
+  [
+   30.68,
+   32.64,
+   1421,
+   455,
+   640,
+   1.0,
+   1.04
+  ],
+  [
+   32.64,
+   37.35,
+   962,
+   395,
+   760,
+   1.1,
+   1.16
+  ],
+  [
+   50.25,
+   55.64,
+   995,
+   380,
+   760,
+   1.0,
+   1.06
+  ],
+  [
+   55.64,
+   58.0,
+   587,
+   455,
+   640,
+   1.08,
+   1.12
+  ]
+ ],
+ "source": "/mnt/user-data/uploads/Movies/Roussel/reels/ext-06-acab.mp4",
+ "transcription": "/home/claude/roussel/transcription.jsonl",
+ "sortie": "/home/claude/roussel/out/06-acab",
+ "musique": {
+  "bpm": 108,
+  "accords": [
+   [
+    48,
+    51,
+    55
+   ],
+   [
+    44,
+    48,
+    51
+   ],
+   [
+    46,
+    50,
+    53
+   ],
+   [
+    43,
+    46,
+    50
+   ]
+  ],
+  "basse": [
+   24,
+   20,
+   22,
+   19
+  ],
+  "graine": 25,
+  "gains": {
+   "drums": 0.7,
+   "bass": 0.8,
+   "pad": 1.15,
+   "arp": 0.9,
+   "fx": 0.4
+  },
+  "volume": -19
+ }
+}

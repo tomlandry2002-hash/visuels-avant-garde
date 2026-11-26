@@ -1,0 +1,161 @@
+{
+ "decalage": 1892.0,
+ "accroche": [
+  "LES AUTRES CANDIDATS ?",
+  "ROUSSEL, LUI, *PREND LE TER*"
+ ],
+ "corrections": [
+  [
+   1898.43,
+   "saint-amant",
+   "Saint-Amand-les-Eaux."
+  ],
+  [
+   1898.81,
+   "les",
+   ""
+  ],
+  [
+   1898.93,
+   "autres.",
+   ""
+  ],
+  [
+   1913.75,
+   "Saint-Amant-les-Ous.",
+   "Saint-Amand-les-Eaux."
+  ],
+  [
+   1915.75,
+   "Saint-Amant-les-Ous.",
+   "Saint-Amand-les-Eaux."
+  ],
+  [
+   1920.71,
+   "FTER.",
+   "TER ?"
+  ],
+  [
+   1912.81,
+   "ils",
+   ""
+  ]
+ ],
+ "morceaux": [
+  [
+   1.7,
+   7.0,
+   484,
+   455,
+   640,
+   1.0,
+   1.06
+  ],
+  [
+   7.0,
+   10.15,
+   417,
+   455,
+   640,
+   1.12,
+   1.16
+  ],
+  [
+   20.2,
+   24.4,
+   451,
+   442,
+   640,
+   1.0,
+   1.05
+  ],
+  [
+   24.4,
+   25.16,
+   441,
+   445,
+   640,
+   1.1,
+   1.12
+  ],
+  [
+   25.16,
+   28.2,
+   955,
+   380,
+   760,
+   1.0,
+   1.05
+  ],
+  [
+   28.2,
+   31.0,
+   919,
+   395,
+   760,
+   1.12,
+   1.16
+  ],
+  [
+   31.0,
+   34.25,
+   936,
+   380,
+   760,
+   1.0,
+   1.05
+  ],
+  [
+   39.65,
+   40.9,
+   869,
+   395,
+   760,
+   1.14,
+   1.18
+  ]
+ ],
+ "source": "/mnt/user-data/uploads/Movies/Roussel/reels/ext-09-saint-amand.mp4",
+ "transcription": "/home/claude/roussel/transcription.jsonl",
+ "sortie": "/home/claude/roussel/out/09-saint-amand",
+ "musique": {
+  "bpm": 92,
+  "accords": [
+   [
+    55,
+    58,
+    62
+   ],
+   [
+    51,
+    55,
+    58
+   ],
+   [
+    53,
+    57,
+    60
+   ],
+   [
+    50,
+    53,
+    57
+   ]
+  ],
+  "basse": [
+   31,
+   27,
+   29,
+   26
+  ],
+  "graine": 23,
+  "gains": {
+   "drums": 0.7,
+   "bass": 0.8,
+   "pad": 1.15,
+   "arp": 0.9,
+   "fx": 0.4
+  },
+  "volume": -19
+ }
+}
