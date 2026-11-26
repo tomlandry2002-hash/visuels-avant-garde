@@ -1,0 +1,166 @@
+{
+ "source": "/mnt/user-data/uploads/Movies/Roussel/reels/maires-b-secretaire.mp4",
+ "decalage": 499.0,
+ "sortie": "2026-11-26-roussel-05-secretaires-de-mairie",
+ "accroche": [
+  "TROP D'AGENTS DANS LES MAIRIES ?",
+  "« DONNEZ-MOI UN *EXEMPLE*, MADAME »"
+ ],
+ "corrections": [
+  [
+   501.4,
+   "madame",
+   "madame."
+  ],
+  [
+   509.3,
+   "commune",
+   ""
+  ],
+  [
+   518.2,
+   "carton",
+   "quart-temps"
+  ],
+  [
+   537.5,
+   "d'être",
+   "d'êtres"
+  ],
+  [
+   533.2,
+   "maisons",
+   "maisons"
+  ],
+  [
+   533.5,
+   "communes",
+   "communes."
+  ],
+  [
+   528.3,
+   "?",
+   "?"
+  ],
+  [
+   501.2,
+   "exemple",
+   "exemple,"
+  ]
+ ],
+ "morceaux": [
+  [
+   1.4,
+   3.4,
+   950,
+   480,
+   760,
+   1.0,
+   1.06
+  ],
+  [
+   10.25,
+   15.4,
+   950,
+   480,
+   760,
+   1.12,
+   1.18
+  ],
+  [
+   15.4,
+   21.4,
+   950,
+   480,
+   760,
+   1.02,
+   1.08
+  ],
+  [
+   21.5,
+   29.8,
+   950,
+   480,
+   760,
+   1.14,
+   1.2
+  ],
+  [
+   29.8,
+   35.0,
+   950,
+   480,
+   760,
+   1.05,
+   1.11
+  ],
+  [
+   35.0,
+   40.1,
+   950,
+   480,
+   760,
+   1.1,
+   1.16
+  ],
+  [
+   40.1,
+   44.9,
+   950,
+   480,
+   760,
+   1.0,
+   1.06
+  ],
+  [
+   44.9,
+   50.4,
+   950,
+   480,
+   760,
+   1.12,
+   1.18
+  ]
+ ],
+ "musique": {
+  "bpm": 104,
+  "accords": [
+   [
+    52,
+    55,
+    59
+   ],
+   [
+    48,
+    52,
+    55
+   ],
+   [
+    50,
+    53,
+    57
+   ],
+   [
+    47,
+    50,
+    54
+   ]
+  ],
+  "basse": [
+   28,
+   24,
+   26,
+   23
+  ],
+  "graine": 34,
+  "gains": {
+   "drums": 0.7,
+   "bass": 0.8,
+   "pad": 1.1,
+   "arp": 0.85,
+   "fx": 0.4
+  },
+  "volume": -19
+ },
+ "transcription": "/home/claude/maires/transcription-medium.jsonl"
+}

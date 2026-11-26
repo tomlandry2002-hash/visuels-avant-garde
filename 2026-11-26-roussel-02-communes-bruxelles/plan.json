@@ -1,0 +1,173 @@
+{
+ "source": "/mnt/user-data/uploads/Movies/Roussel/reels/maires-a-communes.mp4",
+ "decalage": 68.8,
+ "sortie": "2026-11-26-roussel-02-communes-bruxelles",
+ "accroche": [
+  "35 000 COMMUNES EN FRANCE…",
+  "UNE *ANOMALIE* POUR BRUXELLES ?"
+ ],
+ "corrections": [
+  [
+   81.7,
+   "Et",
+   "Eh"
+  ],
+  [
+   82.4,
+   "France",
+   "France,"
+  ],
+  [
+   84.4,
+   "communes",
+   "communes"
+  ],
+  [
+   87.8,
+   "liberté",
+   "« liberté,"
+  ],
+  [
+   88.3,
+   "égalité",
+   "égalité,"
+  ],
+  [
+   88.8,
+   "fraternité",
+   "fraternité »."
+  ],
+  [
+   89.7,
+   "c'est",
+   "C'est"
+  ],
+  [
+   91.4,
+   "France",
+   "France."
+  ],
+  [
+   108.1,
+   "monarchie",
+   "monarchie."
+  ],
+  [
+   108.9,
+   "je",
+   "Je"
+  ],
+  [
+   111.2,
+   "pour",
+   ""
+  ],
+  [
+   83.8,
+   "35",
+   "35 000"
+  ],
+  [
+   84.1,
+   "000",
+   ""
+  ]
+ ],
+ "morceaux": [
+  [
+   1.5,
+   7.1,
+   990,
+   470,
+   760,
+   1.0,
+   1.06
+  ],
+  [
+   7.1,
+   12.1,
+   990,
+   470,
+   760,
+   1.12,
+   1.18
+  ],
+  [
+   12.8,
+   17.8,
+   990,
+   470,
+   760,
+   1.02,
+   1.08
+  ],
+  [
+   17.8,
+   22.75,
+   990,
+   470,
+   760,
+   1.14,
+   1.2
+  ],
+  [
+   34.15,
+   39.9,
+   990,
+   470,
+   760,
+   1.05,
+   1.11
+  ],
+  [
+   39.9,
+   45.3,
+   990,
+   470,
+   760,
+   1.1,
+   1.16
+  ]
+ ],
+ "musique": {
+  "bpm": 96,
+  "accords": [
+   [
+    50,
+    53,
+    57
+   ],
+   [
+    46,
+    50,
+    53
+   ],
+   [
+    48,
+    52,
+    55
+   ],
+   [
+    45,
+    48,
+    52
+   ]
+  ],
+  "basse": [
+   26,
+   22,
+   24,
+   21
+  ],
+  "graine": 21,
+  "gains": {
+   "drums": 0.65,
+   "bass": 0.8,
+   "pad": 1.15,
+   "arp": 0.9,
+   "fx": 0.4
+  },
+  "volume": -19
+ },
+ "transcription": "/home/claude/maires/transcription-medium.jsonl"
+}

@@ -1,0 +1,167 @@
+{
+ "source": "/mnt/user-data/uploads/Movies/Roussel/reels/maires-c-esclavage.mp4",
+ "decalage": 593.0,
+ "sortie": "2026-11-26-roussel-03-esclavage-sans-papiers",
+ "accroche": [
+  "SOUS-PAYÉS ET SANS PAPIERS…",
+  "« ÇA, C'EST DE L'*ESCLAVAGE* »"
+ ],
+ "corrections": [
+  [
+   596.2,
+   "dans",
+   "Dans"
+  ],
+  [
+   606.9,
+   "pays",
+   "pays,"
+  ],
+  [
+   609.6,
+   "papiers",
+   "papiers."
+  ],
+  [
+   609.9,
+   "et",
+   "Et"
+  ],
+  [
+   610.5,
+   "ça",
+   "ça,"
+  ],
+  [
+   611.4,
+   "l'esclavage",
+   "l'esclavage."
+  ],
+  [
+   616.5,
+   "République",
+   "République,"
+  ],
+  [
+   624.0,
+   "mal",
+   "maltraités,"
+  ],
+  [
+   624.3,
+   "traités",
+   ""
+  ],
+  [
+   626.0,
+   "dégradés",
+   "dégradées"
+  ]
+ ],
+ "morceaux": [
+  [
+   3.1,
+   8.1,
+   1000,
+   500,
+   760,
+   1.0,
+   1.06
+  ],
+  [
+   8.1,
+   14.1,
+   1000,
+   500,
+   760,
+   1.12,
+   1.18
+  ],
+  [
+   14.1,
+   19.4,
+   1000,
+   500,
+   760,
+   1.02,
+   1.08
+  ],
+  [
+   21.15,
+   27.6,
+   1000,
+   500,
+   760,
+   1.14,
+   1.2
+  ],
+  [
+   27.7,
+   31.9,
+   1000,
+   500,
+   760,
+   1.05,
+   1.11
+  ],
+  [
+   31.9,
+   35.7,
+   1000,
+   500,
+   760,
+   1.1,
+   1.16
+  ],
+  [
+   35.7,
+   38.5,
+   1000,
+   500,
+   760,
+   1.0,
+   1.06
+  ]
+ ],
+ "musique": {
+  "bpm": 88,
+  "accords": [
+   [
+    45,
+    48,
+    52
+   ],
+   [
+    41,
+    45,
+    48
+   ],
+   [
+    43,
+    47,
+    50
+   ],
+   [
+    40,
+    43,
+    47
+   ]
+  ],
+  "basse": [
+   21,
+   17,
+   19,
+   16
+  ],
+  "graine": 7,
+  "gains": {
+   "drums": 0.6,
+   "bass": 0.85,
+   "pad": 1.2,
+   "arp": 0.8,
+   "fx": 0.4
+  },
+  "volume": -20
+ },
+ "transcription": "/home/claude/maires/transcription-medium.jsonl"
+}
