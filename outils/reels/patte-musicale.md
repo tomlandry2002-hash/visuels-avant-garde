@@ -23,6 +23,7 @@ Carnet tenu à chaque reel : les réglages utilisés et le retour de Tom. Ce qui
 | 2026-11-25 | Droite v1 | socle, graine 7 | « Répétitif par rapport à la dernière », demande d'innover |
 | 2026-11-25 | Droite v2 | 128 bpm, ré mineur, ré m / si♭ / sol m / la (accord de la majeur, plus tendu), basse et batterie en avant, nappe et arpège en retrait, graine 11 | Rejetée : « non », « c'est vraiment à l'inverse » ; v1 programmée |
 | 2026-11-25 | APEC Shenzhen v5 | 116 bpm, mi mineur, mi m / do / sol / ré, basse [28,24,31,26], nappe 1,15, arpège 1,1, batterie 0,9, graine 5 | Validée (« c’est top »), pas de remarque sur la musique ; programmée le 26 novembre à 18 h |
+| 2026-11-26 | Fraude aides apprentissage | 112 bpm, ré mineur, ré m / si♭ / fa / do, basse [38,34,29,36], nappe 1,1, arpège 0,9, batterie 0,95, graine 9, 10 plans, 45 s | Validée (« top »), pas de remarque sur la musique ; programmée le 28 novembre à 11 h 30 |
 
 ## Retours de Tom sur le montage (reel APEC, 25 novembre 2026)
 - Phrase entière affichée d’un coup à chaque plan (`apparitions` toutes à 0) : l’apparition ligne par ligne ne se comprend pas.
