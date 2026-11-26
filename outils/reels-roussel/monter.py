@@ -42,6 +42,36 @@ for t, old, neu in cfg.get('corrections', []):   # [temps absolu approx., mot tr
     c = [m for m in mots if m[2].lower().strip('.,') == old.lower().strip('.,') and abs(m[0] + dec - t) < 0.6]
     if not c: print('correction introuvable', t, old)
     else: min(c, key=lambda m: abs(m[0] + dec - t))[2] = neu
+# coupes sûres : ne jamais couper un mot (demande de Tom, 26/11/2026).
+# Aux jonctions avec saut (et en fin de reel), on prolonge jusqu'à la fin réelle du dernier mot
+# + 0,35 s (Whisper note souvent la fin trop tôt), sans mordre sur le mot suivant ; au début d'un
+# morceau après un saut, on recule jusqu'à 0,12 s avant le premier mot.
+def _src_dur():
+    r = subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', src],
+                       capture_output=True, text=True).stdout.strip()
+    return float(r) if r else 1e9
+DUR = _src_dur()
+for i, m in enumerate(morceaux):
+    t0, t1 = m[0], m[1]
+    saut_apres = i == len(morceaux) - 1 or morceaux[i + 1][0] > t1 + 0.05
+    saut_avant = i == 0 or morceaux[i - 1][1] < t0 - 0.05
+    if saut_apres:
+        dedans = [w for w in mots if w[0] < t1 - 0.02 and w[1] > t0]
+        apres = [w[0] for w in mots if w[0] >= t1 - 0.02]
+        if dedans:
+            fin = max(w[1] for w in dedans) + 0.35
+            if apres: fin = min(fin, min(apres) - 0.04)
+            if i + 1 < len(morceaux): fin = min(fin, morceaux[i + 1][0] if morceaux[i + 1][0] > t0 else fin)
+            m[1] = round(min(max(t1, fin), DUR - 0.05), 3)
+    if saut_avant:
+        premiers = [w for w in mots if w[0] >= t0 - 0.05 and w[0] < m[1]]
+        avant = [w[1] for w in mots if w[1] <= t0 + 0.02 and w[0] < t0]
+        if premiers:
+            deb = min(w[0] for w in premiers) - 0.12
+            if avant: deb = max(deb, max(avant) + 0.03)
+            m[0] = round(max(0.0, min(t0, deb)), 3)
+    if (m[0], m[1]) != (t0, t1):
+        print(f'coupe ajustée : {t0:.2f}-{t1:.2f} -> {m[0]:.2f}-{m[1]:.2f}')
 seg = []; tpos = 0.0
 for (t0, t1, *_r) in morceaux:
     for a, b, w in mots:
@@ -157,4 +187,10 @@ subprocess.run(['ffmpeg', '-v', 'error', '-y'] + inputs + ['-filter_complex', ';
 # planche de contrôle
 subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', sortie, '-vf', f'fps={12 / D:.4f},scale=270:480,tile=6x2', '-frames:v', '1',
                 os.path.join(OUT, 'planche.jpg')], check=True)
-print('OK', sortie, f'{D:.1f} s')
+# limite de jsDelivr : 20 Mo par fichier
+if os.path.getsize(sortie) > 19.5e6:
+    tmp = sortie + '.tmp.mp4'
+    subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', sortie, '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '24',
+                    '-c:a', 'copy', '-movflags', '+faststart', tmp], check=True)
+    os.replace(tmp, sortie)
+print('OK', sortie, f'{D:.1f} s', f'{os.path.getsize(sortie) / 1e6:.1f} Mo')
