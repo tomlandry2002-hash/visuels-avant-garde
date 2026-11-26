@@ -21,7 +21,7 @@ for m in c['morceaux']:
         xs.append(x + w / 2); ys.append(y + hh / 2)
     if xs:
         ncx = statistics.median(xs); fy = statistics.median(ys)
-        ncy = fy + 0.12 * h                       # visage un peu au-dessus du centre
+        ncy = fy + 0.18 * h   # visage haut dans le panneau : menton au-dessus de la bande des sous-titres (66-74 % du panneau)
         w = h * 0.8
         ncy = max(h / 2, min(BAS - h / 2, ncy))
         if ncx + w / 2 > LOGO_X and ncy - h / 2 < LOGO_Y:   # éviter le logo en haut à droite
