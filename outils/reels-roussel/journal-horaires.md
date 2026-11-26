@@ -19,6 +19,8 @@ Phase de test des créneaux (demande de Tom, 26 novembre 2026). Une ligne par re
 | 2026-12-08 | mardi | 18:45 | Félix Mora et les mineurs marocains (LCI, 25/11) | 2026-11-26-roussel-05-felix-mora | 6b084a4fe01471e65377a461 |
 | 2026-12-09 | mercredi | 12:30 | Saint-Amand et le TER (LCI, 25/11) | 2026-11-26-roussel-09-saint-amand | 6b084a7e67a8b92dae08648e |
 | 2026-12-10 | jeudi | 20:30 | Commande publique réservée aux entreprises françaises (LCI, 25/11) | 2026-11-26-roussel-11-commande-publique | 6b084aaddc2360750967c519 |
+| 2026-12-11 | vendredi | 17:15 | Archive INA : Marchais-Elkabbach, « Vous avez du mal » (Cartes sur table, 1980) | 2026-11-26-roussel-12-marchais-elkabbach | 6b0850eae01471e65377bac6 |
+| 2026-12-12 | samedi | 07:45 | Archive INA : Marchais, lettres à Giscard et « parlotes » (Cartes sur table, 1980) | 2026-11-26-roussel-13-marchais-parlotes | 6b08510c67a8b92dae0873aa |
 
 ## Analyses
 
