@@ -1,0 +1,285 @@
+{
+ "sortie": "/home/claude/reel/sortie",
+ "milieu": 0.75,
+ "musique": {
+  "bpm": 112,
+  "graine": 9,
+  "accords": [
+   [
+    50,
+    53,
+    57
+   ],
+   [
+    50,
+    53,
+    58
+   ],
+   [
+    48,
+    53,
+    57
+   ],
+   [
+    48,
+    52,
+    55
+   ]
+  ],
+  "basse": [
+   38,
+   34,
+   29,
+   36
+  ],
+  "gains": {
+   "pad": 1.1,
+   "arp": 0.9,
+   "drums": 0.95
+  }
+ },
+ "plans": [
+  {
+   "type": "photo",
+   "source": "/mnt/user-data/uploads/40c6c598-image.jpg",
+   "boite": [
+    180,
+    0,
+    1629,
+    2576
+   ],
+   "energie": "intro",
+   "bandeau": "Cour des comptes",
+   "lignes": [
+    "La Cour des comptes",
+    "vient de publier",
+    "un rapport sur les",
+    "**aides à l’apprentissage**."
+   ],
+   "mesures": 2.0,
+   "apparitions": [
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "type": "photo",
+   "source": "/mnt/user-data/uploads/ca38b853-image.jpg",
+   "boite": [
+    190,
+    0,
+    574,
+    683
+   ],
+   "energie": "groove",
+   "bandeau": "Réforme de 2018",
+   "lignes": [
+    "Depuis la réforme",
+    "de 2018, l’État y consacre",
+    "de plus en plus d’argent,",
+    "**16 milliards d’euros**",
+    "en 2024."
+   ],
+   "mesures": 2.5,
+   "apparitions": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "type": "photo",
+   "source": "/mnt/user-data/uploads/86e142c2-image.jpg",
+   "boite": [
+    170,
+    0,
+    375,
+    365
+   ],
+   "energie": "groove",
+   "bandeau": "Premier chiffrage",
+   "lignes": [
+    "Pour la première fois,",
+    "la Cour estime que",
+    "**1,5 à 3 milliards** par an",
+    "sont exposés à la fraude",
+    "ou aux abus."
+   ],
+   "mesures": 3.0,
+   "apparitions": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "type": "photo",
+   "source": "/mnt/user-data/uploads/df0ed99b-image.jpg",
+   "boite": [
+    250,
+    0,
+    625,
+    667
+   ],
+   "energie": "groove",
+   "bandeau": "Qu’est-ce qu’un CFA ?",
+   "lignes": [
+    "Un CFA, c’est un centre",
+    "de formation d’apprentis.",
+    "Il est payé pour",
+    "**chaque contrat** signé."
+   ],
+   "mesures": 2.0,
+   "apparitions": [
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "type": "aplat",
+   "energie": "plein",
+   "impact": true,
+   "style": "formule",
+   "taille": 94,
+   "bandeau": "Le fond de l’affaire",
+   "lignes": [
+    "Un CFA qui",
+    "ne forme pas",
+    "est **payé comme**",
+    "un CFA qui forme."
+   ],
+   "mesures": 2.0,
+   "apparitions": [
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "type": "photo",
+   "source": "/mnt/user-data/uploads/1f07dbf5-image.jpg",
+   "boite": [
+    380,
+    0,
+    1346,
+    1717
+   ],
+   "energie": "plein",
+   "lignes": [
+    "La seule preuve",
+    "de la formation est",
+    "un certificat **rédigé**",
+    "**par le CFA lui-même**."
+   ],
+   "mesures": 2.0,
+   "apparitions": [
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "type": "photo",
+   "source": "/mnt/user-data/uploads/82ee8569-image.jpg",
+   "boite": [
+    620,
+    0,
+    1268,
+    1152
+   ],
+   "energie": "plein",
+   "lignes": [
+    "Un tuteur ne doit pas",
+    "encadrer plus",
+    "de deux apprentis.",
+    "La Cour en a trouvé",
+    "**jusqu’à 20** par tuteur."
+   ],
+   "mesures": 2.5,
+   "apparitions": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "type": "photo",
+   "source": "/mnt/user-data/uploads/c7949bc5-image.jpg",
+   "boite": [
+    520,
+    0,
+    1384,
+    1536
+   ],
+   "energie": "groove",
+   "bandeau": "Contrôles",
+   "lignes": [
+    "En 2024, moins de **1 %**",
+    "des sommes versées",
+    "ont été bloquées",
+    "par les contrôles."
+   ],
+   "mesures": 2.0,
+   "apparitions": [
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "type": "photo",
+   "source": "/mnt/user-data/uploads/b85bc8fc-image.jpg",
+   "boite": [
+    120,
+    0,
+    682,
+    1000
+   ],
+   "energie": "creux",
+   "lignes": [
+    "Alors, à qui profite",
+    "vraiment",
+    "l’apprentissage ?"
+   ],
+   "mesures": 1.5,
+   "apparitions": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "type": "fin",
+   "energie": "fin",
+   "mesures": 1.5
+  }
+ ],
+ "miniature": {
+  "source": "/mnt/user-data/uploads/82ee8569-image.jpg",
+  "boite": [
+   620,
+   0,
+   1268,
+   1152
+  ],
+  "bandeau": "Apprentissage",
+  "lignes": [
+   "Des milliards",
+   "versés",
+   "**sans contrôle**"
+  ]
+ }
+}
