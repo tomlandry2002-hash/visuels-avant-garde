@@ -1,0 +1,118 @@
+{
+ "transcription": "/home/claude/marchais/tr-clean.jsonl",
+ "source": "/home/claude/marchais/hd172.mp4",
+ "decalage": 170.5,
+ "sortie": "/home/claude/marchais/r13",
+ "accroche": [
+  "LETTRES À GISCARD SANS RÉPONSE…",
+  "*PARLOTES* POUR DES PARLOTES"
+ ],
+ "corrections": [
+  [
+   176.0,
+   "le",
+   "Le"
+  ],
+  [
+   179.0,
+   "porter…",
+   "porter…"
+  ]
+ ],
+ "morceaux": [
+  [
+   5.4,
+   13.4,
+   915,
+   540,
+   1080,
+   1.0,
+   1.02
+  ],
+  [
+   13.4,
+   19.4,
+   948,
+   432,
+   864,
+   1.08,
+   1.14
+  ],
+  [
+   19.4,
+   26.6,
+   948,
+   432,
+   864,
+   1.0,
+   1.06
+  ],
+  [
+   26.6,
+   31.2,
+   948,
+   432,
+   864,
+   1.12,
+   1.18
+  ],
+  [
+   31.2,
+   34.6,
+   948,
+   432,
+   864,
+   1.0,
+   1.06
+  ],
+  [
+   34.6,
+   38.6,
+   948,
+   432,
+   864,
+   1.04,
+   1.08
+  ]
+ ],
+ "musique": {
+  "bpm": 84,
+  "accords": [
+   [
+    50,
+    53,
+    57
+   ],
+   [
+    46,
+    50,
+    53
+   ],
+   [
+    53,
+    57,
+    60
+   ],
+   [
+    48,
+    52,
+    55
+   ]
+  ],
+  "basse": [
+   26,
+   22,
+   29,
+   24
+  ],
+  "graine": 57,
+  "gains": {
+   "drums": 0.6,
+   "bass": 0.8,
+   "pad": 1.2,
+   "arp": 0.85,
+   "fx": 0.4
+  },
+  "volume": -19
+ }
+}
