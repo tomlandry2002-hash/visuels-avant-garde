@@ -18,6 +18,7 @@ Phase de test des créneaux (demande de Tom, 26 novembre 2026). Une ligne par re
 | 2026-12-05 | samedi | 07:45 | Archive INA : Duclos, patriotes et internationalistes, « d'abord nation » (1970) | 2026-11-27-duclos-18-patriotes | 6b099307ae84fa051ff3e82b |
 | 2026-12-05 | samedi | 17:15 | 50 % des voix aux salariés dans les CA (LCI, 25/11) | 2026-11-26-roussel-07-salaries-ca | 6b0849bfdc2360750967c200 |
 | 2026-12-06 | dimanche | 07:45 | Bassin minier et vote RN (LCI, 25/11) | 2026-11-26-roussel-04-bassin-minier | 6b0849efdc2360750967c2cb |
+| 2026-12-06 | dimanche | 20:30 | Archive INA : Marchais face à Chirac, niveau de vie et « les luttes » (1971) | 2026-11-27-marchais-19-chirac-niveau-de-vie | 6b099358cbb9ba0dc0b10638 |
 | 2026-12-07 | lundi | 22:00 | « Du bleu partout » et fonctionnaires (LCI, 25/11) | 2026-11-26-roussel-08-securite | 6b084a1e67a8b92dae086377 |
 | 2026-12-08 | mardi | 18:45 | Félix Mora et les mineurs marocains (LCI, 25/11) | 2026-11-26-roussel-05-felix-mora | 6b084a4fe01471e65377a461 |
 | 2026-12-09 | mercredi | 12:30 | Saint-Amand et le TER (LCI, 25/11) | 2026-11-26-roussel-09-saint-amand | 6b084a7e67a8b92dae08648e |
