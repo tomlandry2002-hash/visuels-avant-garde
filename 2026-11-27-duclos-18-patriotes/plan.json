@@ -1,0 +1,94 @@
+{
+ "source": "/mnt/user-data/uploads/Movies/Roussel/reels/travail/ext-03-patriotes.mp4",
+ "transcription": "/home/claude/duclos/transcription.jsonl",
+ "decalage": 362.6,
+ "sortie": "/home/claude/visuels-avant-garde/2026-11-27-duclos-18-patriotes",
+ "accroche": [
+  "COMMUNISTES ET PATRIOTES ?",
+  "LA RÉPONSE DE *DUCLOS*"
+ ],
+ "corrections": [
+  [
+   377.42,
+   "nos",
+   "Nous,"
+  ],
+  [
+   377.54,
+   "communistes",
+   "communistes,"
+  ],
+  [
+   379.88,
+   "nos",
+   ""
+  ],
+  [
+   380.06,
+   "bons",
+   ""
+  ],
+  [
+   380.22,
+   "patriotes",
+   "patriote"
+  ],
+  [
+   381.14,
+   "signifient",
+   "signifie"
+  ],
+  [
+   381.82,
+   "chauvin,",
+   "chauvin."
+  ]
+ ],
+ "morceaux": [
+  [
+   1.5,
+   12.8,
+   416,
+   335,
+   440,
+   1.0,
+   1.05
+  ],
+  [
+   12.8,
+   19.9,
+   406,
+   335,
+   440,
+   1.08,
+   1.12
+  ],
+  [
+   19.9,
+   25.9,
+   410,
+   335,
+   440,
+   1.0,
+   1.05
+  ],
+  [
+   25.9,
+   29.7,
+   425,
+   335,
+   440,
+   1.07,
+   1.12
+  ],
+  [
+   29.7,
+   35.2,
+   430,
+   335,
+   440,
+   1.0,
+   1.06
+  ]
+ ]
+}
