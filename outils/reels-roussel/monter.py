@@ -179,7 +179,7 @@ if mus is not None:
     fc.append('[m0][sc]sidechaincompress=threshold=0.05:ratio=6:attack=15:release=350[m1]')
     fc.append('[voix][m1]amix=inputs=2:normalize=0:duration=first,alimiter=limit=0.89[a]')
 else:
-    fc.append('[voix]anull[a]')
+    fc.append('[voix]anull[a]'); fc.append('[sc]anullsink')   # sans musique : la branche sidechain doit être consommée
 sortie = os.path.join(OUT, 'reel.mp4')
 subprocess.run(['ffmpeg', '-v', 'error', '-y'] + inputs + ['-filter_complex', ';'.join(fc), '-map', '[v]', '-map', '[a]',
                 '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '19', '-pix_fmt', 'yuv420p', '-r', str(FPS),
