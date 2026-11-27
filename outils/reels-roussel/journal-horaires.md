@@ -6,11 +6,13 @@ Phase de test des créneaux (demande de Tom, 26 novembre 2026). Une ligne par re
 |---|---|---|---|---|---|
 | 2026-11-26 | jeudi | 18:45 | Sans-papiers, Uber Eats et poke bowl (LCI, 25/11) | 2026-11-26-roussel-01-sans-papiers | 6b083db0dc23607509678d4b |
 | 2026-11-27 | vendredi | 12:30 | 35 000 communes, « anomalie » pour Bruxelles (Salon des maires, 25/11) | 2026-11-26-roussel-02-communes-bruxelles | 6b0848d5e01471e65377a0c3 |
+| 2026-11-28 | samedi | 12:30 | Archive INA : Marchais, « la cause de la crise, c'est la loi du profit » (présidentielle 1981) | 2026-11-27-marchais-22-loi-du-profit | 6b09b8762cd9d9a060e41a27 |
 | 2026-11-28 | samedi | 20:30 | Sans-papiers : « ça, c'est de l'esclavage » (Salon des maires, 25/11) | 2026-11-26-roussel-03-esclavage-sans-papiers | 6b0848d667a8b92dae085e35 |
 | 2026-11-29 | dimanche | 17:16 | Archive INA : Duclos, le colonel Fabien et « l'armée en conserve » (1970) | 2026-11-27-duclos-16-fabien | 6b0997bfae84fa051ff3f954 |
 | 2026-11-29 | dimanche | 22:01 | ACAB, « All Communists Are Beautiful » (LCI, 25/11) | 2026-11-26-roussel-06-acab | 6b0997c0cbb9ba0dc0b11451 |
 | 2026-11-30 | lundi | 07:46 | Archive : Roussel élu, le rapport sur l'ISF, « 1 028 milliards » (38e congrès du PCF, 25/11/2018) | 2026-11-27-roussel-21-isf | 6b0997c02cd9d9a060e3ae35 |
 | 2026-11-30 | lundi | 20:31 | Trois candidats à gauche, pas pour s'affronter (Salon des maires, 25/11) | 2026-11-26-roussel-04-trois-candidats-gauche | 6b0997c1cbb9ba0dc0b11456 |
+| 2026-12-01 | mardi | 17:15 | Archive INA : Marchais, « Dites-le très fort, très fort dimanche » (présidentielle 1981) | 2026-11-27-marchais-23-dites-le-tres-fort | 6b09b8fd2cd9d9a060e41b95 |
 | 2026-12-01 | mardi | 22:01 | Armement, 5 milliards de dividendes (LCI, 25/11) | 2026-11-26-roussel-02-armement | 6b0997c1ae84fa051ff3f95c |
 | 2026-12-02 | mercredi | 18:46 | Archive INA : Marchais-Elkabbach, « Vous avez du mal » (Cartes sur table, 1980) | 2026-11-26-roussel-12-marchais-elkabbach | 6b0997d0cbb9ba0dc0b11487 |
 | 2026-12-03 | jeudi | 12:30 | « On n'a jamais essayé le RN » (LCI, 25/11) | 2026-11-26-roussel-03-rn-pouvoir | 6b084964dc2360750967c081 |
@@ -29,6 +31,8 @@ Phase de test des créneaux (demande de Tom, 26 novembre 2026). Une ligne par re
 | 2026-12-12 | samedi | 07:46 | Archive : Henri Malberg, « je l'assume dans sa grandeur » (2014) | 2026-11-27-roussel-15-malberg-assume | 6b0997eecbb9ba0dc0b11504 |
 | 2026-12-13 | dimanche | 22:01 | Secrétaires de mairie, « donnez-moi un exemple, madame » (Salon des maires, 25/11) | 2026-11-26-roussel-05-secretaires-de-mairie | 6b0997ef2cd9d9a060e3aecc |
 | 2026-12-14 | lundi | 18:46 | Commande publique réservée aux entreprises françaises (LCI, 25/11) | 2026-11-26-roussel-11-commande-publique | 6b0997efcbb9ba0dc0b11509 |
+
+Note du 27 novembre 2026 : jsDelivr refuse parfois l'adresse au hash court (« Package size exceeded ») ; l'adresse au hash complet du commit passe.
 
 ## Analyses
 
