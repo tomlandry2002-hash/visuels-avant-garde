@@ -12,6 +12,10 @@ plan.json :
   accroche      ["LIGNE 1", "LIGNE 2"] en majuscules, carte blanche fixe ; *mot* = rouge (2 lignes, ~32 signes max)
   corrections   [[temps absolu approx., "mot transcrit", "mot juste"], ...] (ponctuation comprise dans le mot juste)
   musique       réglages de ../reels/musique.py + "volume" (dB, défaut -21)
+  debord        facultatif (true) : un morceau dont le cy pousse la boîte sous le bas de l'image est gardé tel quel,
+                le vide sous l'image laisse voir le fond flouté (gros plans : sous-titres sous le menton)
+  archive       facultatif, ex. "ARCHIVE · 25 NOVEMBRE 2018" : image passée (désaturée, chaude, grain, vignette)
+                et mention discrète en haut à gauche du panneau vidéo
   sortie        dossier
 """
 import json, os, re, subprocess, sys
@@ -24,6 +28,7 @@ ICI = os.path.dirname(os.path.abspath(__file__))
 FONTDIR = os.path.join(ICI, 'polices')
 src = cfg['source']; dec = cfg['decalage']
 morceaux = cfg['morceaux']
+DEBORD = cfg.get('debord', False)
 
 # ---------- sous-titres mot à mot (ASS) ----------
 mots = []
@@ -112,6 +117,7 @@ ass = [
     '[V4+ Styles]',
     'Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding',
     'Style: ST,Barlow Condensed Black,118,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,5,3,2,60,60,560,1',
+    'Style: AR,Barlow Condensed Black,54,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,1,0,1,0,2,7,96,60,404,1',
     'Style: HK,Barlow Condensed Black,88,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,8,80,80,134,1',
     '', '[Events]', 'Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text']
 for g in groupes:
@@ -131,6 +137,9 @@ for l in cfg.get('accroche', []):
 if hk:
     txt = '\\N'.join(hk)
     ass.append(f'Dialogue: 1,{ts(0)},{ts(D)},HK,,0,0,0,,{{\\c&H111111&\\3c&HFFFFFF&\\bord0\\fad(150,0)}}{txt}')
+ARCH = cfg.get('archive')
+if ARCH:
+    ass.append(f'Dialogue: 2,{ts(0)},{ts(D)},AR,,0,0,0,,{{\\c&H1A1AD6&}}●{{\\c&HFFFFFF&}} ' + fr(ARCH).upper())
 open(os.path.join(OUT, 'st.ass'), 'w').write('\n'.join(ass) + '\n')
 
 # ---------- musique ----------
@@ -147,16 +156,27 @@ if mus is not None:
                     '--reglages', json.dumps(mus), '--sections', json.dumps(sections)], check=True)
 
 # ---------- vidéo ----------
+LOOK = ("eq=contrast=1.08:saturation=0.5:gamma=0.97,colorchannelmixer=rr=1.04:gg=0.99:bb=0.9,noise=alls=9:allf=t,vignette=PI/4.5"
+        if ARCH else "eq=contrast=1.06:saturation=1.08")
 fc = []; n = len(morceaux)
 fc.append(f'[0:v]split={n}' + ''.join(f'[v{k}]' for k in range(n)))
 fc.append(f'[0:a]asplit={n}' + ''.join(f'[a{k}]' for k in range(n)))
 for k, (t0, t1, cx, cy, h, z0, z1) in enumerate(morceaux):
     w = h * 4 / 5; d = t1 - t0
     x = max(0, min(1920 - w, cx - w / 2)); y = max(0, min(1080 - h, cy - h / 2))
+    ext = 0
+    if DEBORD and cy - h / 2 > 1080 - h:   # gros plan : la boîte descend sous l'image, le bas laisse voir le fond flouté
+        y = cy - h / 2; ext = int(y + h - 1080) + 2
     z = f'({z0}+({z1}-{z0})*min(t/{d:.3f},1))'
-    fc.append(f'[v{k}]trim={t0}:{t1},setpts=PTS-STARTPTS,fps={FPS},crop={int(w)}:{int(h)}:{int(x)}:{int(y)},split[p{k}][b{k}]')
+    if ext:
+        y0 = int(1080 - h)
+        fc.append(f'[v{k}]trim={t0}:{t1},setpts=PTS-STARTPTS,fps={FPS},split[e{k}][f{k}]')
+        fc.append(f'[f{k}]crop={int(w)}:{int(h)}:{int(x)}:{y0}[b{k}]')
+        fc.append(f'[e{k}]{LOOK},format=yuva420p,pad=1920:{1080 + ext}:0:0:color=black@0,crop={int(w)}:{int(h)}:{int(x)}:{int(y)}[p{k}]')
+    else:
+        fc.append(f'[v{k}]trim={t0}:{t1},setpts=PTS-STARTPTS,fps={FPS},crop={int(w)}:{int(h)}:{int(x)}:{int(y)},split[p{k}][b{k}]')
     fc.append(f"[p{k}]scale=w='trunc({PW}*{z}/2)*2':h='trunc({PH}*{z}/2)*2':eval=frame:flags=bicubic,crop={PW}:{PH},"
-              f"eq=contrast=1.06:saturation=1.08,setsar=1[q{k}]")
+              + ("setsar=1" if ext else LOOK + ",setsar=1") + f"[q{k}]")
     fc.append(f'[b{k}]scale=-2:{H},crop={W}:{H},boxblur=30:3,eq=brightness=-0.22:saturation=1.2,setsar=1[g{k}]')
     fc.append(f'[g{k}][q{k}]overlay=0:{PY}:shortest=1,format=yuv420p[c{k}]')
     fc.append(f'[a{k}]atrim={t0}:{t1},asetpts=PTS-STARTPTS,afade=t=in:d=0.03,afade=t=out:st={d - 0.05:.3f}:d=0.05[s{k}]')

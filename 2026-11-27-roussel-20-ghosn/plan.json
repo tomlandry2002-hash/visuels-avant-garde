@@ -1,0 +1,100 @@
+{
+ "source": "/mnt/user-data/uploads/Movies/Roussel/reels/travail/ext-ghosn.mp4",
+ "transcription": "/home/claude/r2018/transcription.jsonl",
+ "decalage": 303.0,
+ "sortie": "/home/claude/r2018/ghosn",
+ "archive": "ARCHIVE · 25 NOVEMBRE 2018",
+ "debord": true,
+ "accroche": [
+  "LE JOUR DE SON ÉLECTION,",
+  "ROUSSEL CIBLE *CARLOS GHOSN*"
+ ],
+ "corrections": [
+  [
+   309.03,
+   "Et",
+   "Et"
+  ],
+  [
+   314.93,
+   "Ghosn.",
+   "Ghosn,"
+  ],
+  [
+   315.57,
+   "Parlons",
+   "parlons-en !"
+  ],
+  [
+   316.05,
+   "d'engles.",
+   ""
+  ],
+  [
+   327.93,
+   "an.",
+   "an,"
+  ],
+  [
+   331.15,
+   "mois.",
+   "mois,"
+  ]
+ ],
+ "morceaux": [
+  [
+   6.0,
+   8.64,
+   900,
+   540,
+   1080,
+   1.0,
+   1.04
+  ],
+  [
+   8.64,
+   13.95,
+   1200,
+   540,
+   900,
+   1.04,
+   1.1
+  ],
+  [
+   21.1,
+   27.2,
+   1008,
+   515,
+   760,
+   1.0,
+   1.05
+  ],
+  [
+   27.2,
+   33.1,
+   1008,
+   515,
+   760,
+   1.12,
+   1.17
+  ],
+  [
+   33.1,
+   36.12,
+   1008,
+   515,
+   760,
+   1.0,
+   1.05
+  ],
+  [
+   36.12,
+   43.4,
+   1127,
+   704,
+   1080,
+   1.0,
+   1.04
+  ]
+ ]
+}
