@@ -1,0 +1,49 @@
+{
+ "source": "/home/claude/m81/src-profit.mp4",
+ "transcription": "/home/claude/m81/transcription.jsonl",
+ "decalage": 38.3,
+ "sortie": "/home/claude/m81/r-profit",
+ "accroche": [
+  "MARCHAIS, 1981",
+  "« C'EST *LA LOI DU PROFIT* »"
+ ],
+ "corrections": [],
+ "morceaux": [
+  [
+   1.52,
+   14.92,
+   672,
+   380,
+   760,
+   1.0,
+   1.06
+  ],
+  [
+   14.92,
+   21.2,
+   760,
+   440,
+   760,
+   1.14,
+   1.2
+  ],
+  [
+   37.41,
+   46.52,
+   709,
+   380,
+   760,
+   1.0,
+   1.06
+  ],
+  [
+   46.52,
+   60.1,
+   1260,
+   440,
+   760,
+   1.14,
+   1.2
+  ]
+ ]
+}
