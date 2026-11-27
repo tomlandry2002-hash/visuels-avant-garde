@@ -21,6 +21,8 @@ Phase de test des créneaux (demande de Tom, 26 novembre 2026). Une ligne par re
 | 2026-12-10 | jeudi | 20:30 | Commande publique réservée aux entreprises françaises (LCI, 25/11) | 2026-11-26-roussel-11-commande-publique | 6b084aaddc2360750967c519 |
 | 2026-12-11 | vendredi | 17:15 | Archive INA : Marchais-Elkabbach, « Vous avez du mal » (Cartes sur table, 1980) | 2026-11-26-roussel-12-marchais-elkabbach | 6b0850eae01471e65377bac6 |
 | 2026-12-12 | samedi | 07:45 | Archive INA : Marchais, lettres à Giscard et « parlotes » (Cartes sur table, 1980) | 2026-11-26-roussel-13-marchais-parlotes | 6b08510c67a8b92dae0873aa |
+| 2026-12-13 | dimanche | 22:00 | Archive : Henri Malberg, « on a fini de reprocher aux Allemands Auschwitz » (2014) | 2026-11-27-roussel-14-malberg-auschwitz | 6b093e4dae84fa051ff2cf25 |
+| 2026-12-14 | lundi | 18:45 | Archive : Henri Malberg, « je l'assume dans sa grandeur » (2014) | 2026-11-27-roussel-15-malberg-assume | 6b093e5fae84fa051ff2cf47 |
 
 ## Analyses
 
