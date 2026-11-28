@@ -1,0 +1,94 @@
+{
+ "source": "ext-03-pourboire.mp4",
+ "transcription": "transcription.jsonl",
+ "decalage": 926,
+ "sortie": "2026-11-28-roussel-03-pourboire",
+ "accroche": [
+  "SALAIRES, LA PROPOSITION ?",
+  "« C'EST UN *POURBOIRE* »"
+ ],
+ "corrections": [
+  [
+   928.55,
+   "demain",
+   "demain ?"
+  ],
+  [
+   928.79,
+   "?",
+   ""
+  ],
+  [
+   944.27,
+   "pour",
+   "un"
+  ],
+  [
+   944.57,
+   "boire,",
+   "pourboire,"
+  ],
+  [
+   948.69,
+   "personnel.",
+   "personnel."
+  ],
+  [
+   951.07,
+   "pin-ut.",
+   "peanuts."
+  ],
+  [
+   941.77,
+   "Non,",
+   "Non,"
+  ]
+ ],
+ "morceaux": [
+  [
+   1.7,
+   6.9,
+   806,
+   449,
+   675,
+   1.0,
+   1.06
+  ],
+  [
+   15.7,
+   16.56,
+   827,
+   449,
+   675,
+   1.1,
+   1.12
+  ],
+  [
+   16.56,
+   20.5,
+   1263,
+   448,
+   560,
+   1.0,
+   1.05
+  ],
+  [
+   20.5,
+   24.52,
+   1295,
+   450,
+   560,
+   1.1,
+   1.15
+  ],
+  [
+   24.52,
+   25.6,
+   892,
+   449,
+   675,
+   1.0,
+   1.04
+  ]
+ ]
+}
