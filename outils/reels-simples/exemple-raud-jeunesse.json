@@ -1,0 +1,42 @@
+{
+ "source": "/mnt/user-data/uploads/Movies/Reels-simples/travail/ext-04-tri.mp4",
+ "transcription": "/home/claude/rs/transcription.jsonl",
+ "decalage": 351.0,
+ "sortie": "/home/claude/rs/r04-tri",
+ "nom": [
+  "Léna Raud",
+  "Conseil national du PCF"
+ ],
+ "corrections": [],
+ "morceaux": [
+  [
+   1.5,
+   8.75,
+   960,
+   540,
+   1080,
+   1.0,
+   1.05
+  ],
+  [
+   8.75,
+   17.5,
+   960,
+   540,
+   1080,
+   1.11,
+   1.16
+  ],
+  [
+   17.5,
+   25.0,
+   960,
+   540,
+   1080,
+   1.04,
+   1.09
+  ]
+ ],
+ "musique_fichier": "/home/claude/rs/mus-04.wav",
+ "musique_volume": -6
+}
