@@ -1,0 +1,111 @@
+{
+ "source": "/mnt/user-data/uploads/Movies/Roussel/reels/travail/chassaigne/ext-02-conclave.mp4",
+ "transcription": "/home/claude/cha/transcription.jsonl",
+ "decalage": 222.0,
+ "sortie": "/home/claude/cha/r02",
+ "accroche": [
+  "UN « CONCLAVE DE FAÇADE »",
+  "CHASSAIGNE CHARGE *BAYROU*"
+ ],
+ "corrections": [
+  [
+   236.01,
+   "façades,",
+   "façade,"
+  ],
+  [
+   277.45,
+   "alignez",
+   "vous alignez"
+  ],
+  [
+   280.91,
+   "'exemple",
+   "l'extrême"
+  ],
+  [
+   280.91,
+   "l'exemple",
+   "l'extrême"
+  ],
+  [
+   285.77,
+   "Nous",
+   "nous"
+  ]
+ ],
+ "morceaux": [
+  [
+   1.35,
+   9.73,
+   1000,
+   620,
+   760,
+   1.0,
+   1.05
+  ],
+  [
+   9.73,
+   15.13,
+   900,
+   560,
+   1000,
+   1.0,
+   1.04
+  ],
+  [
+   15.13,
+   22.6,
+   960,
+   530,
+   760,
+   1.1,
+   1.15
+  ],
+  [
+   53.75,
+   55.93,
+   960,
+   530,
+   760,
+   1.0,
+   1.04
+  ],
+  [
+   55.93,
+   59.13,
+   780,
+   520,
+   900,
+   1.0,
+   1.05
+  ],
+  [
+   59.13,
+   65.27,
+   960,
+   580,
+   760,
+   1.12,
+   1.17
+  ],
+  [
+   65.27,
+   68.6,
+   900,
+   560,
+   1000,
+   1.04,
+   1.08
+  ],
+  [
+   68.6,
+   75.2,
+   1000,
+   560,
+   760,
+   1.0,
+   1.06
+  ]
+ ]
+}

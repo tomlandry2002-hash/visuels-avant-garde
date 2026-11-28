@@ -1,0 +1,107 @@
+{
+ "source": "/mnt/user-data/uploads/Movies/Roussel/reels/travail/chassaigne/ext-03-applaudimetre.mp4",
+ "transcription": "/home/claude/cha/transcription.jsonl",
+ "decalage": 80.5,
+ "sortie": "/home/claude/cha/r03",
+ "accroche": [
+  "OVATION DEBOUT POUR CHASSAIGNE",
+  "ET LA BLAGUE DE *L'APPLAUDIMÈTRE*"
+ ],
+ "corrections": [
+  [
+   83.54,
+   "s'éloignent",
+   "s'éloigne"
+  ],
+  [
+   87.44,
+   "voie",
+   "voix"
+  ],
+  [
+   158.51,
+   "l'applaudiment",
+   "l'applaudimètre,"
+  ],
+  [
+   157.49,
+   "fait",
+   "faite"
+  ],
+  [
+   159.61,
+   "j'ai",
+   "j'aurais"
+  ],
+  [
+   153.47,
+   "hommage",
+   "hommage,"
+  ]
+ ],
+ "morceaux": [
+  [
+   1.78,
+   7.17,
+   904,
+   600,
+   760,
+   1.0,
+   1.05
+  ],
+  [
+   7.17,
+   9.6,
+   880,
+   600,
+   900,
+   1.0,
+   1.04
+  ],
+  [
+   41.0,
+   45.5,
+   900,
+   560,
+   1000,
+   1.0,
+   1.05
+  ],
+  [
+   60.9,
+   62.67,
+   1036,
+   395,
+   760,
+   1.0,
+   1.04
+  ],
+  [
+   62.67,
+   70.67,
+   900,
+   560,
+   1000,
+   1.04,
+   1.08
+  ],
+  [
+   70.67,
+   73.5,
+   900,
+   500,
+   760,
+   1.0,
+   1.04
+  ],
+  [
+   73.5,
+   82.2,
+   900,
+   500,
+   760,
+   1.1,
+   1.16
+  ]
+ ]
+}

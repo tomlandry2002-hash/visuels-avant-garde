@@ -1,0 +1,97 @@
+{
+ "source": "/mnt/user-data/uploads/Movies/Roussel/reels/travail/chassaigne/ext-01-coups-de-force.mp4",
+ "transcription": "/home/claude/cha/transcription.jsonl",
+ "decalage": 193.0,
+ "sortie": "/home/claude/cha/r01",
+ "accroche": [
+  "SA DERNIÈRE QUESTION À BAYROU",
+  "UN *COUP DE FORCE* DÉMOCRATIQUE"
+ ],
+ "corrections": [
+  [
+   198.03,
+   "coûts",
+   "coups"
+  ],
+  [
+   200.63,
+   "coût",
+   "coup"
+  ],
+  [
+   218.01,
+   "le",
+   "la"
+  ],
+  [
+   203.63,
+   "travail",
+   "Travail"
+  ]
+ ],
+ "morceaux": [
+  [
+   1.6,
+   5.8,
+   1040,
+   500,
+   760,
+   1.0,
+   1.04
+  ],
+  [
+   5.8,
+   16.9,
+   1040,
+   490,
+   760,
+   1.1,
+   1.15
+  ],
+  [
+   16.9,
+   21.6,
+   1040,
+   500,
+   760,
+   1.0,
+   1.05
+  ],
+  [
+   21.6,
+   25.43,
+   640,
+   540,
+   900,
+   1.0,
+   1.05
+  ],
+  [
+   25.43,
+   30.1,
+   960,
+   470,
+   760,
+   1.08,
+   1.13
+  ],
+  [
+   110.9,
+   116.0,
+   1016,
+   450,
+   760,
+   1.0,
+   1.05
+  ],
+  [
+   116.0,
+   123.4,
+   980,
+   450,
+   760,
+   1.1,
+   1.16
+  ]
+ ]
+}
