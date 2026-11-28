@@ -8,12 +8,15 @@ Phase de test des créneaux (demande de Tom, 26 novembre 2026). Une ligne par re
 | 2026-11-27 | vendredi | 12:30 | 35 000 communes, « anomalie » pour Bruxelles (Salon des maires, 25/11) | 2026-11-26-roussel-02-communes-bruxelles | 6b0848d5e01471e65377a0c3 |
 | 2026-11-28 | samedi | 12:30 | Archive INA : Marchais, « la cause de la crise, c'est la loi du profit » (présidentielle 1981) | 2026-11-27-marchais-22-loi-du-profit | 6b09b8762cd9d9a060e41a27 |
 | 2026-11-28 | samedi | 20:30 | Sans-papiers : « ça, c'est de l'esclavage » (Salon des maires, 25/11) | 2026-11-26-roussel-03-esclavage-sans-papiers | 6b0848d667a8b92dae085e35 |
+| 2026-11-28 | samedi | 20:30 | « Au revoir » à Macron (BFMTV, 19/11) | 2026-11-28-roussel-01-au-revoir | 6b0aee9568b49fb9cf487f58 |
 | 2026-11-29 | dimanche | 17:16 | Archive INA : Duclos, le colonel Fabien et « l'armée en conserve » (1970) | 2026-11-27-duclos-16-fabien | 6b0997bfae84fa051ff3f954 |
 | 2026-11-29 | dimanche | 22:01 | ACAB, « All Communists Are Beautiful » (LCI, 25/11) | 2026-11-26-roussel-06-acab | 6b0997c0cbb9ba0dc0b11451 |
 | 2026-11-30 | lundi | 07:46 | Archive : Roussel élu, le rapport sur l'ISF, « 1 028 milliards » (38e congrès du PCF, 25/11/2018) | 2026-11-27-roussel-21-isf | 6b0997c02cd9d9a060e3ae35 |
 | 2026-11-30 | lundi | 20:31 | Trois candidats à gauche, pas pour s'affronter (Salon des maires, 25/11) | 2026-11-26-roussel-04-trois-candidats-gauche | 6b0997c1cbb9ba0dc0b11456 |
+| 2026-12-01 | mardi | 07:45 | Ouvrière à 1 500 €, « c'est pas violent, ça ? » (BFMTV, 19/11) | 2026-11-28-roussel-02-ouvriere | 6b0aee9fe4ba99768ef55fa5 |
 | 2026-12-01 | mardi | 17:15 | Archive INA : Marchais, « Dites-le très fort, très fort dimanche » (présidentielle 1981) | 2026-11-27-marchais-23-dites-le-tres-fort | 6b09b8fd2cd9d9a060e41b95 |
 | 2026-12-01 | mardi | 22:01 | Armement, 5 milliards de dividendes (LCI, 25/11) | 2026-11-26-roussel-02-armement | 6b0997c1ae84fa051ff3f95c |
+| 2026-12-02 | mercredi | 12:30 | Teddy Riner candidat, « je vais me mettre au judo » (BFMTV, 19/11) | 2026-11-28-roussel-05-riner | 6b0aeec968b49fb9cf487fdd |
 | 2026-12-02 | mercredi | 18:46 | Archive INA : Marchais-Elkabbach, « Vous avez du mal » (Cartes sur table, 1980) | 2026-11-26-roussel-12-marchais-elkabbach | 6b0997d0cbb9ba0dc0b11487 |
 | 2026-12-03 | jeudi | 12:30 | « On n'a jamais essayé le RN » (LCI, 25/11) | 2026-11-26-roussel-03-rn-pouvoir | 6b084964dc2360750967c081 |
 | 2026-12-03 | jeudi | 22:01 | Archive : Henri Malberg, « on a fini de reprocher aux Allemands Auschwitz » (2014) | 2026-11-27-roussel-14-malberg-auschwitz | 6b0997d02cd9d9a060e3ae77 |
@@ -23,7 +26,9 @@ Phase de test des créneaux (demande de Tom, 26 novembre 2026). Une ligne par re
 | 2026-12-05 | samedi | 17:16 | Archive INA : Marchais face à Chirac, niveau de vie et « les luttes » (1971) | 2026-11-27-marchais-19-chirac-niveau-de-vie | 6b0997e02cd9d9a060e3aea5 |
 | 2026-12-06 | dimanche | 07:45 | Bassin minier et vote RN (LCI, 25/11) | 2026-11-26-roussel-04-bassin-minier | 6b0849efdc2360750967c2cb |
 | 2026-12-06 | dimanche | 20:31 | Archive : Roussel élu, Carlos Ghosn et le salarié de Renault (38e congrès du PCF, 25/11/2018) | 2026-11-27-roussel-20-ghosn | 6b0997e12cd9d9a060e3aea8 |
+| 2026-12-07 | lundi | 17:15 | Nationaliser Total, « je m'en moque » (BFMTV, 19/11) | 2026-11-28-roussel-04-total | 6b0aeefa91ea3b76c9e6cad6 |
 | 2026-12-07 | lundi | 22:00 | « Du bleu partout » et fonctionnaires (LCI, 25/11) | 2026-11-26-roussel-08-securite | 6b084a1e67a8b92dae086377 |
+| 2026-12-08 | mardi | 07:45 | Salaires, « c'est un pourboire » (BFMTV, 19/11) | 2026-11-28-roussel-03-pourboire | 6b0aef2091ea3b76c9e6cbcf |
 | 2026-12-08 | mardi | 18:46 | Archive INA : Duclos, patriotes et internationalistes, « d'abord nation » (1970) | 2026-11-27-duclos-18-patriotes | 6b0997e1cbb9ba0dc0b114c6 |
 | 2026-12-09 | mercredi | 12:31 | Félix Mora et les mineurs marocains (LCI, 25/11) | 2026-11-26-roussel-05-felix-mora | 6b0997e22cd9d9a060e3aeab |
 | 2026-12-10 | jeudi | 20:31 | Archive INA : Marchais, lettres à Giscard et « parlotes » (Cartes sur table, 1980) | 2026-11-26-roussel-13-marchais-parlotes | 6b0997e22cd9d9a060e3aeae |
