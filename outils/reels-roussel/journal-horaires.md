@@ -31,8 +31,11 @@ Phase de test des créneaux (demande de Tom, 26 novembre 2026). Une ligne par re
 | 2026-12-08 | mardi | 07:45 | Salaires, « c'est un pourboire » (BFMTV, 19/11) | 2026-11-28-roussel-03-pourboire | 6b0aef2091ea3b76c9e6cbcf |
 | 2026-12-08 | mardi | 18:46 | Archive INA : Duclos, patriotes et internationalistes, « d'abord nation » (1970) | 2026-11-27-duclos-18-patriotes | 6b0997e1cbb9ba0dc0b114c6 |
 | 2026-12-09 | mercredi | 12:31 | Félix Mora et les mineurs marocains (LCI, 25/11) | 2026-11-26-roussel-05-felix-mora | 6b0997e22cd9d9a060e3aeab |
+| 2026-12-09 | mercredi | 20:30 | Chassaigne, ovation et « applaudimètre » (dernière QAG, Assemblée, 25/03/2025) | 2026-11-28-chassaigne-21-applaudimetre | 6b0af27668b49fb9cf488e42 |
+| 2026-12-10 | jeudi | 07:45 | Chassaigne, « coup de force démocratique » (dernière QAG, 25/03/2025) | 2026-11-28-chassaigne-22-coups-de-force | 6b0af2b668b49fb9cf488e57 |
 | 2026-12-10 | jeudi | 20:31 | Archive INA : Marchais, lettres à Giscard et « parlotes » (Cartes sur table, 1980) | 2026-11-26-roussel-13-marchais-parlotes | 6b0997e22cd9d9a060e3aeae |
 | 2026-12-11 | vendredi | 17:16 | Saint-Amand et le TER (LCI, 25/11) | 2026-11-26-roussel-09-saint-amand | 6b0997ee2cd9d9a060e3aec7 |
+| 2026-12-11 | vendredi | 22:00 | Chassaigne, « conclave de façade » et extrême droite (dernière QAG, 25/03/2025) | 2026-11-28-chassaigne-23-conclave | 6b0af2f491ea3b76c9e6d807 |
 | 2026-12-12 | samedi | 07:46 | Archive : Henri Malberg, « je l'assume dans sa grandeur » (2014) | 2026-11-27-roussel-15-malberg-assume | 6b0997eecbb9ba0dc0b11504 |
 | 2026-12-13 | dimanche | 22:01 | Secrétaires de mairie, « donnez-moi un exemple, madame » (Salon des maires, 25/11) | 2026-11-26-roussel-05-secretaires-de-mairie | 6b0997ef2cd9d9a060e3aecc |
 | 2026-12-14 | lundi | 18:46 | Commande publique réservée aux entreprises françaises (LCI, 25/11) | 2026-11-26-roussel-11-commande-publique | 6b0997efcbb9ba0dc0b11509 |
