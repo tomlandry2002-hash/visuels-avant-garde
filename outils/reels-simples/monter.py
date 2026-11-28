@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Reel SIMPLE (style sobre « Attal », validé par Tom le 28/11/2026) : vidéo plein cadre 9:16, étalonnage doux, grain léger,
-sous-titres blancs Outfit ExtraBold (minuscules, 2 ou 3 mots, ombre noire floutée), sans titre,
+sous-titres blancs Brother 1816 ExtraBold, à défaut Outfit ExtraBold (minuscules, 2 ou 3 mots, ombre noire floutée), sans titre,
 bandeau nom (cartouche blanc) + fonction (cartouche noir translucide) qui se déroulent les 4 premières secondes.
 Coupes : mêmes règles que reels-roussel/monter.py (jamais un mot coupé, allongement auto aux jonctions).
 
@@ -15,7 +15,8 @@ plan.json :
   corrections     [[temps absolu, "mot transcrit", "mot juste"], ...]
   musique_fichier WAV de composer.py (facultatif) ; musique_volume en dB (défaut -12, test à -6), baisse sous la voix
   accroche        facultatif, déconseillé (Tom le trouve inutile) : lignes courtes en haut à gauche
-  police          facultatif (défaut "Outfit ExtraBold") ; police2 (défaut "Outfit Bold")
+  police          facultatif : nom complet libass (Brother-1816-ExtraBold si le fichier est dans polices/, sinon Outfit ExtraBold) ;
+                  police2 pour la fonction ; police_fichier / police2_fichier = fichiers .ttf (largeur du bandeau)
   sortie          dossier (reel.mp4 + planche.jpg)
 """
 import json, os, re, subprocess, sys
@@ -117,6 +118,10 @@ def propre(w):  # minuscules naturelles, ponctuation de fin retirée (sauf ? et 
     w = fr(w)
     return re.sub(r'[.,;:…]+$', '', w)
 
+# Brother 1816 (police payante de Tom, jamais dans le dépôt : copiée depuis ~/Movies/Reels-simples/polices) si présente, sinon Outfit
+if os.path.exists(os.path.join(FONTDIR, 'Brother-1816-ExtraBold.ttf')):
+    cfg.setdefault('police', 'Brother-1816-ExtraBold'); cfg.setdefault('police_fichier', 'Brother-1816-ExtraBold.ttf')
+    cfg.setdefault('police2', 'Brother-1816-Bold'); cfg.setdefault('police2_fichier', 'Brother-1816-Bold.ttf')
 F = cfg.get('police', 'Outfit ExtraBold'); FQ = cfg.get('police2', 'Outfit Bold')
 STY = 'Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding'
 ass = ['[Script Info]', 'ScriptType: v4.00+', f'PlayResX: {W}', f'PlayResY: {H}', 'WrapStyle: 0', 'ScaledBorderAndShadow: yes', '',
